@@ -660,6 +660,61 @@ const questions = [
   explication: "Sur l'image, la pièce n°17 est la notice mentionnant les charges.",
   image: "img/prm.png"
 },
+{
+  texte: "Selon cette image, combien de tonnes peuvent être stockées par alvéole ?",
+  reponses: ["2250 kg", "3000 kg", "1000 kg", "750 kg"],
+  bonne: 0,
+  explication: "Sur l'image, la plaque de charge indique 2250 kg par alvéole (3 niveaux à 750 kg chacun).",
+  image: "img/pdc.png"
+},
+{
+  texte: "Selon cette image, que faut-il faire en cas de dommage sur le rayonnage ?",
+  reponses: [
+    "Continuer l’utilisation normalement",
+    "Le signaler au responsable de la sécurité",
+    "Réparer soi-même immédiatement",
+    "Mettre un panneau de danger"
+  ],
+  bonne: 1,
+  explication: "L'affichage indique qu'il faut signaler tous les dommages au responsable de la sécurité.",
+  image: "img/pdc.png"
+},
+{
+  texte: "Selon cette image, que ne faut-il jamais faire sur le rayonnage ?",
+  reponses: [
+    "Utiliser un transpalette",
+    "Monter dessus",
+    "Charger les étagères uniformément",
+    "Lire la plaque de charge"
+  ],
+  bonne: 1,
+  explication: "Le panneau rouge précise clairement 'NE PAS ESCALADER LE RAYONNAGE'.",
+  image: "img/pdc.png"
+},
+{
+  texte: "Selon cette image, que représente la valeur 4500 kg indiquée sur la plaque ?",
+  reponses: [
+    "La charge maximale totale par travée",
+    "La charge maximale par niveau",
+    "Le poids total du rayonnage vide",
+    "Le poids de sécurité recommandé"
+  ],
+  bonne: 0,
+  explication: "4500 kg correspond à la charge maximale totale par travée selon la plaque de charge.",
+  image: "img/pdc.png"
+},
+{
+  texte: "Selon cette image, que précise la norme NF EN 15635 mentionnée ?",
+  reponses: [
+    "Les procédures de montage des rayonnages",
+    "Les inspections et l’entretien des systèmes de stockage",
+    "Le code couleur des signalétiques",
+    "Le calcul des charges admissibles"
+  ],
+  bonne: 1,
+  explication: "La norme NF EN 15635 concerne l’utilisation et la maintenance des systèmes de stockage et précise les inspections à réaliser.",
+  image: "img/pdc.png"
+},
 
 // ==== Bloc 2 │ Planifier et encadrer les activités d’une équipe d’opérateurs en entrepôt ====
 
@@ -1414,6 +1469,7 @@ const questions = [
 },
 
 ];
+
 
 
 
