@@ -479,7 +479,20 @@ const questions = [
   explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 3h15 ",
   image: ""
 },
-
+{
+  texte: "En transport routier national, avec une livraison supérieur ou égal à 3 tonnes, quel est le plafond légal d’indemnisation en cas de perte ou avarie (sans déclaration de valeur ni faute lourde) ?",
+  reponses: ["50 € par kg ou 4 000 € par tonne de l’envoi","20 € par kg ou 3 200 € par tonne de l’envoi","33 € par kg ou 1 000 € par colis","8,33 DTS/kg"],
+  bonne: 1,
+  explication: "Selon l’article L133-1 du Code de commerce et l’arrêté du 27 avril 2017 (contrat-type général), pour les livraison à 3 tonnes et + l’indemnité est plafonnée à 20 €/kg ou 3 200 €/t de l’envoi. Seul le montant le plus faible est retenu, jamais la somme des deux.",
+  image: ""
+},
+{
+  texte: "En transport routier national, avec une livraison inférieur à 3 tonnes, quel est le plafond légal d’indemnisation en cas de perte ou avarie (sans déclaration de valeur ni faute lourde) ?",
+  reponses: ["20 € par kg ou 3 200 € par tonne de l’envoi","8,33 DTS/kg","33 € par kg ou 1 000 € par colis","50 € par kg ou 4 000 € par tonne de l’envoi"],
+  bonne: 2,
+  explication: "Selon l’article L133-1 du Code de commerce et le contrat-type 'messagerie' (arrêté du 27 avril 2017), pour les livraison inférieur à 3 tonnes, l’indemnité est plafonnée à 33 €/kg ou 1 000 € par colis. La plus faible des deux limites est toujours retenue.",
+  image: ""
+},
 
 
 // ==== Bloc 2 │ Planifier et encadrer les activités d’une équipe d’opérateurs en entrepôt ====
@@ -1235,6 +1248,7 @@ const questions = [
 },
 
 ];
+
 
 
 
