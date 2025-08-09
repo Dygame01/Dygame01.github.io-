@@ -1,6 +1,6 @@
 let currentQuestion = null;
-let recentIndexes = [];           // mémorise les derniers index tirés
-const noRepeatCount = 5;          // taille de la "mémoire" anti-répétition
+let recentIndexes = [];
+const noRepeatCount = 5;
 
 function getRandomQuestionIndex() {
   if (questions.length <= 1) return 0;
@@ -9,7 +9,7 @@ function getRandomQuestionIndex() {
   do {
     i = Math.floor(Math.random() * questions.length);
     tries++;
-    if (tries > 30) break; // sécurité si peu de questions
+    if (tries > 30) break;
   } while (recentIndexes.includes(i));
 
   recentIndexes.push(i);
@@ -17,21 +17,30 @@ function getRandomQuestionIndex() {
   return i;
 }
 
-// Mélange les réponses d'une question et recalcule l'index de la bonne
+// Mélange les réponses sans toucher au tableau original
 function shuffleAnswers(question) {
-  const answersWithFlag = question.reponses.map((rep, idx) => ({
+  // Création d'une copie indépendante
+  const qCopy = {
+    ...question,
+    reponses: [...question.reponses]
+  };
+
+  // Tableau avec info de la bonne réponse
+  const answersWithFlag = qCopy.reponses.map((rep, idx) => ({
     text: rep,
-    correct: idx === question.bonne
+    correct: idx === qCopy.bonne
   }));
 
+  // Mélange Fisher-Yates
   for (let i = answersWithFlag.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [answersWithFlag[i], answersWithFlag[j]] = [answersWithFlag[j], answersWithFlag[i]];
   }
 
-  question.reponses = answersWithFlag.map(a => a.text);
-  question.bonne = answersWithFlag.findIndex(a => a.correct);
-  return question;
+  qCopy.reponses = answersWithFlag.map(a => a.text);
+  qCopy.bonne = answersWithFlag.findIndex(a => a.correct);
+
+  return qCopy;
 }
 
 function afficherQuestion() {
@@ -44,11 +53,8 @@ function afficherQuestion() {
 
   const index = getRandomQuestionIndex();
 
-  // On clone l'objet pour ne pas modifier la question originale dans "questions"
-  currentQuestion = JSON.parse(JSON.stringify(questions[index]));
-
-  // Mélange les réponses de la question
-  currentQuestion = shuffleAnswers(currentQuestion);
+  // On clone et on mélange les réponses
+  currentQuestion = shuffleAnswers(questions[index]);
 
   let html = `<div class="question"><p>${currentQuestion.texte}</p>`;
 
@@ -83,7 +89,6 @@ function verifier() {
   const val = parseInt(choix.value, 10);
   const ok = (val === currentQuestion.bonne);
 
-  // désactive les radios
   document.querySelectorAll('input[name="reponse"]').forEach(el => el.disabled = true);
 
   result.innerHTML =
@@ -97,9 +102,6 @@ function verifier() {
 
 document.getElementById("nextBtn").addEventListener("click", afficherQuestion);
 
-// Première question
-afficherQuestion();
-
-// Première question
+// Lancer le quiz
 afficherQuestion();
 
