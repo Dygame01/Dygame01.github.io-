@@ -17,6 +17,23 @@ function getRandomQuestionIndex() {
   return i;
 }
 
+// Mélange les réponses d'une question et recalcule l'index de la bonne
+function shuffleAnswers(question) {
+  const answersWithFlag = question.reponses.map((rep, idx) => ({
+    text: rep,
+    correct: idx === question.bonne
+  }));
+
+  for (let i = answersWithFlag.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [answersWithFlag[i], answersWithFlag[j]] = [answersWithFlag[j], answersWithFlag[i]];
+  }
+
+  question.reponses = answersWithFlag.map(a => a.text);
+  question.bonne = answersWithFlag.findIndex(a => a.correct);
+  return question;
+}
+
 function afficherQuestion() {
   const container = document.getElementById("quiz-container");
   const result = document.getElementById("result");
@@ -26,7 +43,12 @@ function afficherQuestion() {
   btn.style.display = "none";
 
   const index = getRandomQuestionIndex();
-  currentQuestion = questions[index];
+
+  // On clone l'objet pour ne pas modifier la question originale dans "questions"
+  currentQuestion = JSON.parse(JSON.stringify(questions[index]));
+
+  // Mélange les réponses de la question
+  currentQuestion = shuffleAnswers(currentQuestion);
 
   let html = `<div class="question"><p>${currentQuestion.texte}</p>`;
 
@@ -77,3 +99,7 @@ document.getElementById("nextBtn").addEventListener("click", afficherQuestion);
 
 // Première question
 afficherQuestion();
+
+// Première question
+afficherQuestion();
+
