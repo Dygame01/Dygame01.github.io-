@@ -1007,7 +1007,7 @@ const questions = [
     reponses: ["catégorie 5", "catégorie 3", "catégorie 1b", "Non"],
     bonne: 3,
     explication: "Ce véhicule fait partie de la recommandation R.482, Chariots tout-terrain",
-    image: "Dygame01.github.io-/img/r482.png"
+    image: "img/r482.png"
   },  
 {
   texte: "Sur un chariot élévateur, à quelle hauteur doit-on circuler fourches en charge ?",
@@ -1145,6 +1145,7 @@ const questions = [
 },
 
 ];
+
 
 
 
