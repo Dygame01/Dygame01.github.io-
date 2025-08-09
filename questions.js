@@ -409,7 +409,76 @@ const questions = [
   explication: "Barrières/renforts empêchent la chute depuis les niveaux.",
   image: ""
 },
-
+{
+  texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison en dessous des 100kg ou des 20 colis",
+  reponses: ["20min", "15min", "30min", "1h"],
+  bonne: 1,
+  explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 15min ",
+  image: ""
+},
+{
+  texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison au dessus des 100kg ou des 20 colis",
+  reponses: ["20min", "15min", "30min", "1h"],
+  bonne: 2,
+  explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 30min ",
+  image: ""
+},
+{
+  texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison entre 3 et 10 tonnes ou de moins de 30m3 sur une heure de rendez-vous précis",
+  reponses: ["20min", "15min", "30min", "1h"],
+  bonne: 3,
+  explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 1 heure ",
+  image: ""
+},
+{
+  texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison supérieur à 10 tonnes ou de plus de 30m3 sur une heure de rendez-vous précis",
+  reponses: ["20min", "15min", "30min", "1h"],
+  bonne: 3,
+  explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 1 heure ",
+  image: ""
+},
+{
+  texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison supérieur à 10 tonnes ou de plus de 30m3 sur une heure de rendez-vous pris sur plage horaire",
+  reponses: ["3h", "2h", "1h30", "1h"],
+  bonne: 1,
+  explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 2h ",
+  image: ""
+},
+{
+  texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison entre 3 et 10 tonnes ou de moins de 30m3 sur une heure de rendez-vous pris sur plage horaire",
+  reponses: ["3h", "2h", "1h30", "1h"],
+  bonne: 2,
+  explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 1h ",
+  image: ""
+},
+{
+  texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison supérieur à 10 tonnes ou de plus de 30m3 sans rendez-vous ou autre",
+  reponses: ["3h", "2h", "1h30", "1h"],
+  bonne: 0,
+  explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 3h ",
+  image: ""
+},
+{
+  texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison entre 3 et 10 tonnes ou de moins de 30m3 sans rendez-vous ou autre",
+  reponses: ["3h", "2h", "1h30", "1h"],
+  bonne: 1,
+  explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 2h ",
+  image: ""
+},
+{
+  texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison entre 3 et 10 tonnes ou de moins de 30m3 sur rendez-vous non respecté",
+  reponses: ["3h", "3h15h", "2h30", "2h15"],
+  bonne: 3,
+  explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 2h15 ",
+  image: ""
+},
+{
+  texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison supérieur à 10 tonnes ou de plus de 30m3 sur rendez-vous non respecté",
+  reponses: ["3h", "3h15h", "2h30", "2h15"],
+  bonne: 1,
+  explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 3h15 ",
+  image: ""
+},
 
 
 
@@ -1166,6 +1235,7 @@ const questions = [
 },
 
 ];
+
 
 
 
