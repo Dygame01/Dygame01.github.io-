@@ -493,6 +493,54 @@ const questions = [
   explication: "Selon l’article L133-1 du Code de commerce et le contrat-type 'messagerie' (arrêté du 27 avril 2017), pour les livraison inférieur à 3 tonnes, l’indemnité est plafonnée à 33 €/kg ou 1 000 € par colis. La plus faible des deux limites est toujours retenue.",
   image: ""
 },
+{
+  texte: "Que doit-on vérifier avant d’utiliser un rayonnage métallique pour le stockage ?",
+  reponses: [
+    "Que la charge maximale par niveau et par travée soit connue et respectée",
+    "Que les étagères soient peintes",
+    "Que le rayonnage ait plus de 2 mètres de hauteur",
+    "Que le rayonnage soit équipé d’un éclairage intégré"
+  ],
+  bonne: 0,
+  explication: "Le ED 771 rappelle que la charge maximale admissible par niveau et par travée doit être clairement indiquée et respectée pour éviter tout risque d’effondrement.",
+  image: ""
+},
+{
+  texte: "Selon le ED 771, comment éviter le basculement d’un rayonnage métallique ?",
+  reponses: [
+    "Le fixer au sol ou au mur et respecter la répartition des charges",
+    "Mettre les charges les plus lourdes en haut",
+    "Laisser un espace vide en bas pour le nettoyage",
+    "Ne pas utiliser de fixation afin de pouvoir le déplacer facilement"
+  ],
+  bonne: 0,
+  explication: "Un rayonnage métallique doit être stable, fixé au sol ou au mur si nécessaire, et les charges les plus lourdes doivent être placées en bas pour éviter le basculement.",
+  image: ""
+},
+{
+  texte: "Quelle est la bonne pratique pour charger un rayonnage métallique ?",
+  reponses: [
+    "Placer les charges lourdes en haut et les légères en bas",
+    "Répartir les charges lourdes en bas et les légères en haut",
+    "Mettre toutes les charges au centre",
+    "Ne pas tenir compte de la répartition"
+  ],
+  bonne: 1,
+  explication: "Le ED 771 recommande de placer les charges lourdes en bas et les légères en haut pour améliorer la stabilité et réduire les efforts lors de la manutention.",
+  image: ""
+},
+{
+  texte: "Que faut-il éviter lors de la manutention sur un rayonnage métallique ?",
+  reponses: [
+    "Monter sur les étagères pour atteindre un objet",
+    "Utiliser un escabeau ou une plate-forme sécurisée",
+    "Lire les indications de charge",
+    "Ranger les charges légères en hauteur"
+  ],
+  bonne: 0,
+  explication: "Il est interdit de grimper sur un rayonnage métallique, car cela risque de le faire basculer ou de provoquer une chute de hauteur.",
+  image: ""
+},
 
 
 // ==== Bloc 2 │ Planifier et encadrer les activités d’une équipe d’opérateurs en entrepôt ====
@@ -1248,6 +1296,7 @@ const questions = [
 },
 
 ];
+
 
 
 
