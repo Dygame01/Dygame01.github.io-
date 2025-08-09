@@ -541,7 +541,125 @@ const questions = [
   explication: "Il est interdit de grimper sur un rayonnage métallique, car cela risque de le faire basculer ou de provoquer une chute de hauteur.",
   image: ""
 },
-
+{
+  texte: "Selon cette image, comment se nomme la pièce n°1 ?",
+  reponses: ["Échelle de rive", "Échelle intermédiaire", "Plancher ou platelage", "Sabot"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°1 est l'échelle de rive.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°2 ?",
+  reponses: ["Échelle intermédiaire", "Lisse", "Entredoise de jumelage", "Protection de montant"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°2 est l'échelle intermédiaire.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°3 ?",
+  reponses: ["Lisse", "Traverse de support de palette", "Plancher ou platelage", "Protection de montant"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°3 est la lisse.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°4 ?",
+  reponses: ["Entredoise de jumelage", "Traverse de support de palette", "Plancher", "Protection latérale"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°4 est l'entredoise de jumelage.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°5 ?",
+  reponses: ["Protection au-dessus des allées", "Traverse", "Échelle de rive", "Support pour conteneur"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°5 est la protection au-dessus des allées ponts et des allées piétonnes.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°6 ?",
+  reponses: ["Protection de montant", "Protection latérale", "Protection au-dessus des allées", "Traverse"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°6 est la protection au-dessus des allées ponts et piétonnes.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°7 ?",
+  reponses: ["Dispositif antichute arrière", "Plancher", "Support palette", "Contreventement"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°7 est le dispositif antichute arrière (grillage ou filet).",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°8 ?",
+  reponses: ["Plancher ou platelage", "Support conteneur", "Traverse", "Entredoise"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°8 est le plancher ou platelage.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°9 ?",
+  reponses: ["Protection latérale d'extrémité", "Protection latérale transversale", "Sabot", "Support palette"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°9 est la protection latérale d'extrémité.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°10 ?",
+  reponses: ["Protection latérale d'allée transversale", "Protection de montant", "Traverse", "Contreventement"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°10 est la protection latérale d'allée transversale.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°11 ?",
+  reponses: ["Dispositif de protection de montant", "Échelle de rive", "Plancher", "Support palette"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°11 est le dispositif de protection de montant.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°12 ?",
+  reponses: ["Console de dépose palette", "Support conteneur", "Traverse palette", "Plancher"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°12 est la console de dépose palette.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°13 ?",
+  reponses: ["Contreventement dorsal", "Protection transversale", "Lisse", "Entredoise"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°13 est le contreventement dorsal.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°14 ?",
+  reponses: ["Support pour conteneur", "Plancher", "Protection latérale", "Traverse"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°14 est le support pour conteneur.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°15 ?",
+  reponses: ["Traverse de support de palette", "Plancher", "Échelle intermédiaire", "Sabot"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°15 est la traverse de support de palette.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°16 ?",
+  reponses: ["Signalétique d'allée", "Notice de charges", "Plancher", "Protection de montant"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°16 est la signalétique d'allée.",
+  image: "img/prm.png"
+},
+{
+  texte: "Selon cette image, comment se nomme la pièce n°17 ?",
+  reponses: ["Notice mentionnant les charges", "Signalétique d'allée", "Support palette", "Plancher"],
+  bonne: 0,
+  explication: "Sur l'image, la pièce n°17 est la notice mentionnant les charges.",
+  image: "img/prm.png"
+},
 
 // ==== Bloc 2 │ Planifier et encadrer les activités d’une équipe d’opérateurs en entrepôt ====
 
@@ -1296,6 +1414,7 @@ const questions = [
 },
 
 ];
+
 
 
 
