@@ -930,7 +930,7 @@ const questions = [
     reponses: ["catégorie 1a", "catégorie 1b", "catégorie 2a", "catégorie 3"],
     bonne: 3,
     explication: "ce chariot fait partie de la catégorie 3, Chariots élévateurs frontaux en porte-à-faux d'une capacité nominale inférieur ou égale à 6 tonnes",
-    image: "img/cat3.png"
+    image: "img/Cat3.png"
   },
     {
     texte: "de quel catégorie de la recommandation R489 fait partie ce véhicule ?",
@@ -1007,7 +1007,7 @@ const questions = [
     reponses: ["catégorie 1a", "catégorie 3", "catégorie 2a", "catégorie 7"],
     bonne: 1,
     explication: "Ce véhicule fait partie de la catégorie 3, Chariots élévateurs frontaux en porte-à-faux d'une capacité nominale inférieur ou égale à 6 tonnes",
-    image: "img/cat3.png"
+    image: "img/Cat3.png"
   },  
         {
     texte: "ce véhicules fait t-il partie d'une catégorie de la recommandation R.489 ?",
@@ -1166,6 +1166,7 @@ const questions = [
 },
 
 ];
+
 
 
 
