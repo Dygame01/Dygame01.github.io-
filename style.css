@@ -157,6 +157,9 @@ h1 {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+
+
+
 /* --- Boost lisibilité mobile/tablette --- */
 @media (max-width: 768px){
   html{ font-size: 18px; }                 /* base un peu plus grande */
@@ -218,4 +221,5 @@ h1 {
 @media (min-width: 1024px){
   #quiz-container{ max-width: 780px; }     /* au lieu de 70% */
 }
+
 
