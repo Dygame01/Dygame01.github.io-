@@ -638,11 +638,32 @@ const questions = [
   image: ""
 },
 {
-  texte: "Que signifie le pictogramme représentant deux mains tenant un colis avec un cœur ?",
-  reponses: ["Manipuler avec soin", "Produit inflammable", "Fragile", "Interdit de gerber"],
+  texte: "Que signifie ce pictogramme ?",
+  reponses: ["Manipuler avec soin", "Produit explosif", "Fragile", "Interdit de gerber"],
+  bonne: 1,
+  explication: "Ce pictogramme indique que la marchandise peut explosé.",
+  image: "img/exp.png"
+},
+  {
+  texte: "Que signifie ce pictogramme ?",
+  reponses: ["Risque de croisé un engin", "Produit inflammable", "Fragile", "Interdit de gerber"],
   bonne: 0,
-  explication: "Ce pictogramme indique que la marchandise doit être manipulée avec précaution.",
-  image: ""
+  explication: "Ce pictogramme indique que vous risqué de croisé un engin, il faut donc être prudent.",
+  image: "img/ace.png"
+},
+  {
+  texte: "Que signifie ce pictogramme ?",
+  reponses: ["Manipuler avec soin", "Produit inflammable", "Fragile", "Interdit de gerber"],
+  bonne: 2,
+  explication: "Ce pictogramme indique que la marchandise est fragile et doit être manipulée avec précaution.",
+  image: "img/frag.png"
+},
+  {
+  texte: "Que signifie ce pictogramme ?",
+  reponses: ["Manipuler avec soin", "Produit inflammable", "sens du colis", "Interdit de gerber"],
+  bonne: 2,
+  explication: "Ce pictogramme indique que la marchandise doit être porté fléche vers le haut.",
+  image: "img/sdl.png"
 },
 {
   texte: "Dans le cadre du développement durable, que faire des palettes bois cassées ?",
@@ -669,6 +690,13 @@ const questions = [
   texte: "Pourquoi utiliser un casque antibruit dans certaines zones d’entrepôt ?",
   reponses: ["Pour protéger l’audition contre les nuisances sonores", "Pour mieux entendre les collègues", "Pour améliorer la concentration", "Pour réduire la fatigue visuelle"],
   bonne: 0,
+  explication: "L’exposition prolongée au bruit peut causer des pertes auditives irréversibles.",
+  image: ""
+},
+  {
+  texte: "à partir de combien de Décibel est-t-on obligé de porté un casque anti-bruit ?",
+  reponses: ["80db", "75db", "85db", "90db"],
+  bonne: 2,
   explication: "L’exposition prolongée au bruit peut causer des pertes auditives irréversibles.",
   image: ""
 },
@@ -708,11 +736,11 @@ const questions = [
   image: ""
 },
 {
-  texte: "Que signifie le pictogramme de danger représentant une flamme ?",
+  texte: "Que signifie ce pictogramme ?",
   reponses: ["Produit inflammable", "Produit corrosif", "Produit explosif", "Produit radioactif"],
   bonne: 0,
   explication: "Ce pictogramme CLP signale une substance ou un mélange inflammable.",
-  image: ""
+  image: "img/inf.png"
 },
 {
   texte: "Quel est le numéro d’appel d’urgence unique en Europe ?",
@@ -757,17 +785,10 @@ const questions = [
   image: ""
 },
 {
-  texte: "Quelle durée prolongée debout augmente le risque de TMS membres inférieurs ?",
-  reponses: ["Moins de 15 min", "Plus de 2 heures", "30 secondes", "Jamais"],
+  texte: "Quelle durée prolongée debout par semaine augmente le risque de TMS membres inférieurs ?",
+  reponses: ["Moins de 30 heures", "Plus de 20 heures", "1 heures", "Jamais"],
   bonne: 1,
-  explication: "La station debout prolongée sans mouvement favorise les troubles circulatoires et musculaires.",
-  image: ""
-},
-{
-  texte: "Quel outil réduit la torsion du tronc lors du picking au sol ?",
-  reponses: ["Transpalette pivotant", "Escabeau", "Film étirable", "Diable"],
-  bonne: 0,
-  explication: "Un transpalette pivotant ou plateau tournant évite la torsion excessive.",
+  explication: "La station debout prolongée sans mouvement favorise les troubles circulatoires et musculaires au bout d'environs 20 heures par semaine.",
   image: ""
 },
 {
@@ -786,9 +807,9 @@ const questions = [
 },
 {
   texte: "Dans Outlook, que signifie 'CC' ?",
-  reponses: ["Copie Conforme", "Contact Client", "Copie Cachette", "Coordination Centrale"],
+  reponses: ["Copie Carbone", "Contact Client", "Copie Cachette", "Coordination Centrale"],
   bonne: 0,
-  explication: "CC = Copie Conforme, destinataires informés mais non principaux.",
+  explication: "CC = Copie Carbone, destinataires informés mais non principaux.",
   image: ""
 },
 {
@@ -1145,6 +1166,7 @@ const questions = [
 },
 
 ];
+
 
 
 
