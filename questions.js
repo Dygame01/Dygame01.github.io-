@@ -73,7 +73,7 @@ const questions = [
   image: ""
 },
 {
-  texte: "En expédition, que doit-on vérifier avant de fermer le camion ?",
+  texte: "En expédition, que doit-on vérifier avant le départ du camion ?",
   reponses: ["Que la marchandise est filmée", "Que le plomb ou scellé est posé si requis", "Que le moteur est coupé", "Que le chauffeur a mangé"],
   bonne: 1,
   explication: "Le scellé ou plombage est posé pour garantir l’intégrité du chargement jusqu’à destination.",
@@ -961,28 +961,28 @@ const questions = [
     image: "img/cat7.png"
   },    
   {
-    texte: "de quel type de la recommandation R486 fait partie ces véhicule ?",
+    texte: "de quel type de la recommandation R486 font partie ces véhicule ?",
     reponses: ["type 1", "type 2", "type 3", "Aucun"],
     bonne: 1,
     explication: "Ces véhicules font partie du type 2, la translation avec la plate-forme de travail en position haute peut être commandé par un organe situé sur la plate-forme de travail, donc en hauteur",
     image: "img/Type2.png"
   },
   {
-    texte: "de quel type de la recommandation R486 fait partie ces véhicule ?",
+    texte: "de quel type de la recommandation R486 font partie ces véhicule ?",
     reponses: ["type 1", "type 2", "type 3", "Aucun"],
     bonne: 0,
     explication: "Ces véhicules font partie du type 1, la translation n'est admise qu'avec la plate-forme de travail en position de transport, donc replié",
     image: "img/Type1.png"
   },
   {
-    texte: "de quel groupe de la recommandation R486 fait partie ces véhicule ?",
+    texte: "de quel groupe de la recommandation R486 font partie ces véhicule ?",
     reponses: ["groupe A", "groupe B", "groupe C", "groupe D"],
     bonne: 0,
     explication: "Ces véhicules font partie du Groupe A qui concerne les PEMP à élévation verticale",
     image: "img/GroupeA.png"
   },
   {
-    texte: "de quel groupe de la recommandation R486 fait partie ces véhicule ?",
+    texte: "de quel groupe de la recommandation R486 font partie ces véhicule ?",
     reponses: ["groupe A", "groupe C", "groupe B", "groupe D"],
     bonne: 2,
     explication: "Ces véhicules font partie du Groupe B qui concerne les PEMP à élévation Multidirectionelle",
@@ -1166,6 +1166,7 @@ const questions = [
 },
 
 ];
+
 
 
 
