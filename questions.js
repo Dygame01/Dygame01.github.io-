@@ -881,91 +881,91 @@ const questions = [
     reponses: ["catégorie 1a", "catégorie 1b", "catégorie 2a", "catégorie 3"],
     bonne: 0,
     explication: "ce chariot fait partie de la Catégorie 1a, Transpalettes à conducteur porté avec hauteur de levée inférieure ou égal à 1,20m ",
-    image: "img/cat1a.png"
+    image: "Dygame01.github.io-/img/cat1a.png"
   },
   {
     texte: "de quel catégorie de la recommandation R489 fait partie ce véhicule ?",
     reponses: ["catégorie 5", "catégorie 1b", "catégorie 2a", "catégorie 3"],
     bonne: 1,
     explication: "ce chariot fait partie de la Catégorie 1b, Gerbeur à conducteur porté d'une hauteur de levée supérieur à 1,20m",
-    image: "img/cat1b.png"
+    image: "Dygame01.github.io-/img/cat1b.png"
   },
   {
     texte: "de quel catégorie de la recommandation R489 fait partie ce véhicule ?",
     reponses: ["catégorie 5", "catégorie 2a", "catégorie 6", "catégorie 3"],
     bonne: 1,
     explication: "ce chariot fait partie de la catégorie 2a, Chariot à plateau porteur d'une capacité de charge inférieur ou égal à 2 tonnes",
-    image: "img/cat2a.png"
+    image: "Dygame01.github.io-/img/cat2a.png"
   },
     {
     texte: "de quel catégorie de la recommandation R489 fait partie ce véhicule ?",
     reponses: ["catégorie 1b", "catégorie 2b", "catégorie 2a", "catégorie 3"],
     bonne: 1,
     explication: "ce chariot fait partie de la catégorie 2b, Chariot tracteur industriels d'une capacité de traction inférieure ou égal à 25 tonnes",
-    image: "img/cat2b.png"
+    image: "Dygame01.github.io-/img/cat2b.png"
   },
     {
     texte: "de quel catégorie de la recommandation R489 fait partie ce véhicule ?",
     reponses: ["catégorie 1a", "catégorie 1b", "catégorie 2a", "catégorie 3"],
     bonne: 3,
     explication: "ce chariot fait partie de la catégorie 3, Chariots élévateurs frontaux en porte-à-faux d'une capacité nominale inférieur ou égale à 6 tonnes",
-    image: "img/cat3.png"
+    image: "Dygame01.github.io-/img/cat3.png"
   },
     {
     texte: "de quel catégorie de la recommandation R489 fait partie ce véhicule ?",
     reponses: ["catégorie 1a", "catégorie 1b", "catégorie 4", "catégorie 3"],
     bonne: 2,
     explication: "ce chariot fait partie de la catégorie 4, Chariots élévateurs frontaux en porte-à-faux d'une capacité nominale supérieure à 6 tonnes",
-    image: "img/cat4.png"
+    image: "Dygame01.github.io-/img/cat4.png"
   },
     {
     texte: "de quel catégorie de la recommandation R489 fait partie ce véhicule ?",
     reponses: ["catégorie 5", "catégorie 1b", "catégorie 2a", "catégorie 3"],
     bonne: 0,
     explication: "ce chariot fait partie de la catégorie 5, Chariots élévateurs à mât rétractable",
-    image: "img/cat5.png"
+    image: "Dygame01.github.io-/img/cat5.png"
   },
     {
     texte: "de quel catégorie de la recommandation R489 fait partie ce véhicule ?",
     reponses: ["catégorie 5", "catégorie 6", "catégorie 2a", "catégorie 3"],
     bonne: 1,
     explication: "ce chariot fait partie de la catégorie 6, Chariots élévateurs à poste de conduite élevable avec une hauteur de plancher supérieur à 1,20m",
-    image: "img/cat6.png"
+    image: "Dygame01.github.io-/img/cat6.png"
   },
       {
     texte: "de quel catégorie de la recommandation R489 permet de conduire tout ces véhicules ?",
     reponses: ["catégorie 1a", "catégorie 3", "catégorie 2a", "catégorie 7"],
     bonne: 3,
     explication: "La catégorie 7 ne permet la conduite des chariots que hors production, comme le chargement et déchargement sur porte engins, démonstrations, maintenance etc...",
-    image: "img/cat7.png"
+    image: "Dygame01.github.io-/img/cat7.png"
   },    
   {
     texte: "de quel type de la recommandation R486 fait partie ces véhicule ?",
     reponses: ["type 1", "type 2", "type 3", "Aucun"],
     bonne: 1,
     explication: "Ces véhicules font partie du type 2, la translation avec la plate-forme de travail en position haute peut être commandé par un organe situé sur la plate-forme de travail, donc en hauteur",
-    image: "img/Type2.png"
+    image: "Dygame01.github.io-/img/Type2.png"
   },
   {
     texte: "de quel type de la recommandation R486 fait partie ces véhicule ?",
     reponses: ["type 1", "type 2", "type 3", "Aucun"],
     bonne: 0,
     explication: "Ces véhicules font partie du type 1, la translation n'est admise qu'avec la plate-forme de travail en position de transport, donc replié",
-    image: "img/Type1.png"
+    image: "Dygame01.github.io-/img/Type1.png"
   },
   {
     texte: "de quel groupe de la recommandation R486 fait partie ces véhicule ?",
     reponses: ["groupe A", "groupe B", "groupe C", "groupe D"],
     bonne: 0,
     explication: "Ces véhicules font partie du Groupe A qui concerne les PEMP à élévation verticale",
-    image: "img/GroupeA.png"
+    image: "Dygame01.github.io-/img/GroupeA.png"
   },
   {
     texte: "de quel groupe de la recommandation R486 fait partie ces véhicule ?",
     reponses: ["groupe A", "groupe C", "groupe B", "groupe D"],
     bonne: 2,
     explication: "Ces véhicules font partie du Groupe B qui concerne les PEMP à élévation Multidirectionelle",
-    image: "img/GroupeB.png"
+    image: "Dygame01.github.io-/img/GroupeB.png"
   },
   {
     texte: "Que signifie CACES ?",
@@ -986,28 +986,28 @@ const questions = [
     reponses: ["catégorie 1a", "catégorie 3", "catégorie 2a", "catégorie 7"],
     bonne: 1,
     explication: "Ce véhicule fait partie de la catégorie 3, Chariots élévateurs frontaux en porte-à-faux d'une capacité nominale inférieur ou égale à 6 tonnes",
-    image: "img/cat3.png"
+    image: "Dygame01.github.io-/img/cat3.png"
   },  
         {
     texte: "ce véhicules fait t-il partie d'une catégorie de la recommandation R.489 ?",
     reponses: ["catégorie 5", "catégorie 3", "catégorie 1b", "Non"],
     bonne: 3,
     explication: "Ce véhicule fait partie de la recommandation R.485, gerbeur à conducteur accompagnant à hauteur de levée au dessus de 1,20m",
-    image: "img/r485.png"
+    image: "Dygame01.github.io-/img/r485.png"
   },  
         {
     texte: "ce véhicules fait t-il partie d'une catégorie de la recommandation R.489 ?",
     reponses: ["catégorie 5", "catégorie 3", "catégorie 1b", "Non"],
     bonne: 3,
     explication: "Ce véhicule fait partie de la recommandation R.366, Transpalettes",
-    image: "img/r366.png"
+    image: "Dygame01.github.io-/img/r366.png"
   },  
         {
     texte: "ce véhicules fait t-il partie d'une catégorie de la recommandation R.489 ?",
     reponses: ["catégorie 5", "catégorie 3", "catégorie 1b", "Non"],
     bonne: 3,
     explication: "Ce véhicule fait partie de la recommandation R.482, Chariots tout-terrain",
-    image: "img/r482.png"
+    image: "Dygame01.github.io-/img/r482.png"
   },  
 {
   texte: "Sur un chariot élévateur, à quelle hauteur doit-on circuler fourches en charge ?",
@@ -1145,3 +1145,4 @@ const questions = [
 },
 
 ];
+
