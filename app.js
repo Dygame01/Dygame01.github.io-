@@ -1,8 +1,6 @@
 let currentQuestion = null;
 let recentIndexes = [];
 const noRepeatCount = 10;
-let questionCounter = 0;
-let questionsScript = null; // pour éviter les doublons
 
 function getRandomQuestionIndex() {
   if (questions.length <= 1) return 0;
@@ -40,8 +38,8 @@ function shuffleAnswers(question) {
   return qCopy;
 }
 
-// Gestion image avec fallback de casse
-function buildImageHTML(path) {
+// Gestion image avec fallback de casse (Cat3.png vs cat3.png)
+function buildImageHTML(path){
   if (!path) return "";
   const lower = path.toLowerCase();
   const needsFallback = lower !== path;
@@ -52,19 +50,6 @@ function buildImageHTML(path) {
     <div class="question-image">
       <img src="${path}" ${onerr} alt="illustration" loading="lazy" decoding="async">
     </div>`;
-}
-
-// Recharge le fichier questions.js avec cache-busting
-function reloadQuestions() {
-  if (questionsScript) {
-    questionsScript.remove(); // supprime l’ancienne balise script
-  }
-  questionsScript = document.createElement("script");
-  questionsScript.src = "questions.js?v=" + Date.now(); // paramètre unique
-  questionsScript.onload = () => {
-    console.log("✅ Questions rechargées :", questions.length);
-  };
-  document.body.appendChild(questionsScript);
 }
 
 function afficherQuestion() {
@@ -96,15 +81,8 @@ function afficherQuestion() {
   html += `<button class="btn-primary" onclick="verifier()">Valider</button></div>`;
   container.innerHTML = html;
 
-  // Compte les questions et recharge après 10
-  questionCounter++;
-  if (questionCounter >= 10) {
-    questionCounter = 0;
-    reloadQuestions();
-  }
-
-  // Accessibilité: focus sur la première option
-  container.querySelector('input[type="radio"]')?.focus({ preventScroll: true });
+  // Accessibilité: focus sur la question
+  container.querySelector('input[type="radio"]')?.focus({preventScroll:true});
 }
 
 function verifier() {
@@ -129,6 +107,7 @@ function verifier() {
        <p><strong>Explication :</strong> ${currentQuestion.explication}</p>
      </div>`;
 
+  // Montrer le bouton sous le résultat (centré par CSS)
   btn.style.display = "inline-block";
 
   // Scroll automatique vers le bas de la page
@@ -140,8 +119,10 @@ function verifier() {
 
 document.getElementById("nextBtn").addEventListener("click", () => {
   afficherQuestion();
-  document.getElementById("quiz-container").scrollIntoView({ behavior: "smooth", block: "start" });
+  // remonte sur la carte question
+  document.getElementById("quiz-container").scrollIntoView({behavior:"smooth", block:"start"});
 });
 
 // Première question
 afficherQuestion();
+
