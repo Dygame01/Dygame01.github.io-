@@ -1461,14 +1461,15 @@ const questions = [
 },
 
 {
-  texte: "Pour limiter le bruit et les chocs, on installe aux quais…",
+  texte: "Sur un quai de chargement, pour limiter le bruit et les chocs lors de l’accostage des véhicules, on installe… ",
   reponses: ["Des gyros bleus", "Des butoirs et guides-roues", "Des ralentisseurs seulement", "Des miroirs convexes uniquement"],
   bonne: 1,
-  explication: "Butoirs absorbeurs + guides-roues = centrage/absorption chocs.",
+  explication: "Butoirs absorbeurs + guides-roues = centrage/absorption des chocs sur contre le quai.",
   image: ""
 },
 
 ];
+
 
 
 
