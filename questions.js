@@ -1099,7 +1099,102 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   explication: "Le suivi des indicateurs de sécurité permet d’identifier les risques et de mettre en place des actions correctives.",
   image: ""
 },
-
+{
+  texte: "Quel est le principe général du Code du travail concernant l'emploi des jeunes de moins de 18 ans ?",
+  reponses: [
+    "Ils peuvent effectuer tous types de travaux",
+    "Ils ne peuvent pas réaliser de travaux présentant des risques ou dépassant leurs forces",
+    "Ils peuvent travailler uniquement la nuit",
+    "Ils ne peuvent travailler qu'en extérieur"
+  ],
+  bonne: 1,
+  explication: "Le Code du travail interdit aux jeunes de moins de 18 ans et aux apprentis d'effectuer des travaux présentant des risques pour leur santé, leur sécurité, leur moralité ou excédant leurs forces. ❗ Sanctions : amende jusqu'à 1 500 € par infraction et par jeune, doublée en cas de récidive (art. R4741-1 du Code du travail).",
+  image: ""
+},
+{
+  texte: "Quel article du Code du travail définit certains travaux interdits aux jeunes ?",
+  reponses: [
+    "Article L.4121-1",
+    "Article R.4321-1",
+    "Article R.4421-3",
+    "Article L.3231-2"
+  ],
+  bonne: 2,
+  explication: "L'article R.4421-3 du Code du travail définit les agents biologiques dangereux et autres risques interdisant certains travaux aux jeunes. ❗ Sanctions : amende de 1 500 € par infraction, doublée en cas de récidive.",
+  image: ""
+},
+{
+  texte: "Quels types de travaux sont strictement interdits aux jeunes de 15 à 18 ans ?",
+  reponses: [
+    "Travaux avec agents biologiques dangereux, machines dangereuses, températures extrêmes",
+    "Travaux administratifs et bureautiques",
+    "Travaux uniquement en présence d'un tuteur",
+    "Travaux de manutention légère"
+  ],
+  bonne: 0,
+  explication: "Les travaux interdits incluent l'exposition à des agents biologiques dangereux, machines présentant des risques mécaniques, températures extrêmes, etc. ❗ Sanctions : amende de 1 500 € par jeune et par infraction.",
+  image: ""
+},
+{
+  texte: "Les jeunes peuvent-ils participer à l'abattage et à l'euthanasie des animaux ?",
+  reponses: [
+    "Oui, sans restriction",
+    "Oui, uniquement sur animaux domestiques",
+    "Non, c'est interdit car cela implique un contact avec des animaux dangereux ou malades",
+    "Oui, mais uniquement sous la supervision d'un vétérinaire"
+  ],
+  bonne: 2,
+  explication: "L'abattage, l'euthanasie et certaines opérations sur animaux sont interdits car ils présentent des risques biologiques et physiques. ❗ Sanctions : amende de 1 500 € par infraction.",
+  image: ""
+},
+{
+  texte: "Les jeunes peuvent-ils travailler dans un espace confiné sans surveillance ?",
+  reponses: [
+    "Oui, s'ils sont équipés d'EPI",
+    "Oui, s'ils ont plus de 16 ans",
+    "Non, c'est strictement interdit",
+    "Oui, uniquement pour moins d'une heure"
+  ],
+  bonne: 2,
+  explication: "Le travail dans des espaces confinés sans surveillance est strictement interdit aux jeunes travailleurs. ❗ Sanctions : amende de 1 500 € par infraction.",
+  image: ""
+},
+{
+  texte: "La conduite de véhicules agricoles par un jeune travailleur est-elle autorisée ?",
+  reponses: [
+    "Oui, à condition qu'ils soient formés",
+    "Oui, mais uniquement sur terrain privé",
+    "Non, sauf si le véhicule est équipé d'un dispositif anti-renversement",
+    "Non, c'est interdit sans protection contre le renversement"
+  ],
+  bonne: 3,
+  explication: "La conduite est interdite si le véhicule n'a pas de dispositif de protection contre le renversement. ❗ Sanctions : amende de 1 500 € par infraction.",
+  image: ""
+},
+{
+  texte: "Dans quel cas un jeune peut-il effectuer un travail normalement interdit ?",
+  reponses: [
+    "S'il est volontaire",
+    "S'il bénéficie d'une dérogation officielle pour formation professionnelle",
+    "Si son employeur signe une attestation",
+    "Uniquement s'il a plus de 16 ans"
+  ],
+  bonne: 1,
+  explication: "Certaines tâches interdites peuvent être effectuées par dérogation dans le cadre d'une formation professionnelle, sous conditions et déclaration à l'inspection du travail. ❗ Sanctions en cas de non-respect : amende jusqu'à 1 500 € par infraction.",
+  image: ""
+},
+{
+  texte: "Qui doit valider une dérogation permettant à un jeune d'effectuer un travail à risque ?",
+  reponses: [
+    "Le chef d'équipe",
+    "L'inspecteur du travail et le médecin du travail",
+    "Un délégué syndical",
+    "Un formateur interne"
+  ],
+  bonne: 1,
+  explication: "Les dérogations sont validées par l'inspecteur du travail et nécessitent l'avis favorable du médecin du travail ou du médecin chargé du suivi médical. ❗ Sanctions en cas d'absence de validation : amende jusqu'à 1 500 € par infraction.",
+  image: ""
+},
 
 
 
@@ -1716,6 +1811,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 
 ];
+
 
 
 
