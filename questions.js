@@ -764,6 +764,25 @@ const questions = [
   explication: "Ces espaces nécessitent un éclairement moyen à maintenir de 300 lux.",
   image: "img/lux.png"
 },
+{
+  texte: "Selon l'image, quelle est la distance recommandée entre une palette et la lisse avant ou arrière du rayonnage ?",
+  reponses: ["20 mm", "50 mm", "75 mm", "100 mm"],
+  bonne: 1,
+  explication: "L'image montre un espace de 50 mm entre la palette et chaque lisse (avant et arrière).",
+  image: "img/LDP.png"
+},
+{
+  texte: "Selon l'image, que représente la 'position limite' indiquée à droite ?",
+  reponses: [
+    "La distance maximale de retrait de la palette vers l'arrière",
+    "La position la plus avancée autorisée",
+    "La distance minimale de sécurité latérale",
+    "La hauteur maximale de charge"
+  ],
+  bonne: 0,
+  explication: "La 'position limite' correspond à la distance maximale à laquelle une palette peut être reculée avant de compromettre la sécurité.",
+  image: "img/LDP.png"
+}
 
   
 
@@ -1520,6 +1539,7 @@ const questions = [
 },
 
 ];
+
 
 
 
