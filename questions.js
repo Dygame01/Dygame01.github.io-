@@ -1108,7 +1108,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
     "Ils ne peuvent travailler qu'en extérieur"
   ],
   bonne: 1,
-  explication: "Le Code du travail interdit aux jeunes de moins de 18 ans et aux apprentis d'effectuer des travaux présentant des risques pour leur santé, leur sécurité, leur moralité ou excédant leurs forces. ❗ Sanctions : amende jusqu'à 1 500 € par infraction et par jeune, doublée en cas de récidive (art. R4741-1 du Code du travail).",
+  explication: "Le Code du travail interdit aux jeunes âgés de 15 à 18 ans et aux apprentis d'effectuer des travaux présentant des risques pour leur santé, leur sécurité, leur moralité ou excédant leurs forces. ❗ Sanctions : amende jusqu'à 1 500 € par infraction et par jeune, doublée en cas de récidive (art. R4741-1 du Code du travail).",
   image: ""
 },
 {
@@ -1120,7 +1120,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
     "Article L.3231-2"
   ],
   bonne: 2,
-  explication: "L'article R.4421-3 du Code du travail définit les agents biologiques dangereux et autres risques interdisant certains travaux aux jeunes. ❗ Sanctions : amende de 1 500 € par infraction, doublée en cas de récidive.",
+  explication: "L'article R.4421-3 du Code du travail définit les agents biologiques dangereux et autres risques interdisant certains travaux aux jeune âgés de 15 à 18 ans. ❗ Sanctions : amende de 1 500 € par infraction, doublée en cas de récidive.",
   image: ""
 },
 {
@@ -1156,7 +1156,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
     "Oui, uniquement pour moins d'une heure"
   ],
   bonne: 2,
-  explication: "Le travail dans des espaces confinés sans surveillance est strictement interdit aux jeunes travailleurs. ❗ Sanctions : amende de 1 500 € par infraction.",
+  explication: "Le travail dans des espaces confinés sans surveillance est strictement interdit aux jeune âgés de 15 à 18 ans travailleurs. ❗ Sanctions : amende de 1 500 € par infraction.",
   image: ""
 },
 {
@@ -1195,6 +1195,102 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   explication: "Les dérogations sont validées par l'inspecteur du travail et nécessitent l'avis favorable du médecin du travail ou du médecin chargé du suivi médical. ❗ Sanctions en cas d'absence de validation : amende jusqu'à 1 500 € par infraction.",
   image: ""
 },
+{
+  texte: "Quelles conditions doivent être réunies pour qu’un jeune âgés de 15 à 18 ans puisse conduire un équipement de travail mobile ou un appareil de levage ?",
+  reponses: [
+    "Avoir 18 ans révolus",
+    "Avoir reçu une formation adéquate et une autorisation de conduite",
+    "Être accompagné d’un collègue expérimenté",
+    "Porter un casque et un gilet réfléchissant"
+  ],
+  bonne: 1,
+  explication: "Un jeune âgés de 15 à 18 ans peut conduire ce type d’équipement uniquement s’il a reçu une formation adaptée et possède une autorisation de conduite spécifique.",
+  image: ""
+},
+{
+  texte: "Quelle est la limite de manutention manuelle pour un jeune âgés de 15 à 18 ans travailleur sans dérogation médicale ?",
+  reponses: [
+    "10 % de son poids",
+    "20 % de son poids",
+    "30 % de son poids",
+    "50 % de son poids"
+  ],
+  bonne: 1,
+  explication: "Les manutentions manuelles dépassant 20 % du poids du jeune âgés de 15 à 18 ans nécessitent une aptitude médicale spécifique pour être autorisées.",
+  image: ""
+},
+{
+  texte: "Les jeune âgés de 15 à 18 ans titulaires d’un diplôme dans le métier peuvent-ils réaliser des travaux interdits ?",
+  reponses: [
+    "Oui, sans condition",
+    "Oui, uniquement avec l’accord de l’inspecteur du travail et du médecin du travail",
+    "Non, jamais",
+    "Oui, si l’employeur donne son accord"
+  ],
+  bonne: 1,
+  explication: "Les jeune âgés de 15 à 18 ans diplômés peuvent réaliser certains travaux interdits uniquement avec dérogation validée par l’inspecteur du travail et avis favorable du médecin du travail.",
+  image: ""
+},
+{
+  texte: "Quels travaux nécessitent une habilitation électrique B1, H1 ou B1V pour les jeune âgés de 15 à 18 ans ?",
+  reponses: [
+    "Les travaux de maintenance mécanique",
+    "Les travaux exposant à un risque d’origine électrique",
+    "Les travaux de manutention lourde",
+    "Les travaux sur machines hydrauliques"
+  ],
+  bonne: 1,
+  explication: "Les travaux exposant à un risque électrique ne sont autorisés aux jeune âgés de 15 à 18 ans que s’ils détiennent une habilitation adéquate (B1, H1, B1V).",
+  image: ""
+},
+{
+  texte: "Dans les dérogations temporaires, que signifie 'travaux à faible risque répétitif' ?",
+  reponses: [
+    "Travaux effectués rapidement",
+    "Travaux courts et ponctuels présentant un risque très faible",
+    "Travaux manuels sans formation",
+    "Travaux en extérieur uniquement"
+  ],
+  bonne: 1,
+  explication: "Certains travaux dangereux peuvent être autorisés à titre temporaire si le risque est très faible et l’opération de courte durée non répétitive.",
+  image: ""
+},
+{
+  texte: "Les jeune âgés de 15 à 18 ans peuvent-ils intervenir sur des appareils à pression ?",
+  reponses: [
+    "Oui, sans restriction",
+    "Oui, uniquement avec dérogation temporaire",
+    "Non, c’est interdit",
+    "Oui, si le travail est supervisé par un tuteur"
+  ],
+  bonne: 1,
+  explication: "Les travaux sur appareils à pression font partie des dérogations temporaires et nécessitent déclaration à l’inspecteur du travail.",
+  image: ""
+},
+{
+  texte: "Que doivent porter les jeune âgés de 15 à 18 ans pour effectuer des travaux où la protection collective est impossible ?",
+  reponses: [
+    "Uniforme et badge",
+    "Équipements de protection individuelle (EPI)",
+    "Aucun équipement particulier",
+    "Gants uniquement"
+  ],
+  bonne: 1,
+  explication: "Lorsque la protection collective n’est pas possible, les jeune âgés de 15 à 18 ans doivent être équipés d’EPI adaptés et être formés à leur utilisation.",
+  image: ""
+},
+{
+  texte: "Les jeune âgés de 15 à 18 ans peuvent-ils travailler au contact du verre ou du métal en fusion ?",
+  reponses: [
+    "Oui, c’est autorisé",
+    "Oui, avec formation et EPI",
+    "Non, sauf dérogation temporaire",
+    "Seulement pour des pièces froides"
+  ],
+  bonne: 2,
+  explication: "Le contact avec le verre ou le métal en fusion est interdit sauf dans le cadre d’une dérogation temporaire validée.",
+  image: ""
+}
 
 
 
@@ -1811,6 +1907,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 
 ];
+
 
 
 
