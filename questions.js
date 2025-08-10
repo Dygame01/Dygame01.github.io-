@@ -1290,7 +1290,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   bonne: 2,
   explication: "Le contact avec le verre ou le métal en fusion est interdit sauf dans le cadre d’une dérogation temporaire validée.",
   image: ""
-}
+},
 
 
 
@@ -1907,6 +1907,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 
 ];
+
 
 
 
