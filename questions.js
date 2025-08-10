@@ -115,10 +115,31 @@ const questions = [
   image: ""
 },
 {
-  texte: "Quelle est la largeur minimale réglementaire d'une allée piétonne en entrepôt ?",
+  texte: "Quelle est la largeur minimale réglementaire d'une allée piétonne en entrepôt à sens unique ?",
   reponses: ["0,60 m", "0,80 m", "1,20 m", "2,00 m"],
+  bonne: 1,
+  explication: "Pour des raisons de sécurité et d’accessibilité, elle doit être d’au moins 0,80 m de largeur.",
+  image: ""
+},
+{
+  texte: "Quelle est la largeur minimale réglementaire d'une allée piétonne en entrepôt à double sens ?",
+  reponses: ["0,60 m", "0,80 m", "1,50 m", "2,00 m"],
   bonne: 2,
-  explication: "Pour des raisons de sécurité et d’accessibilité, elle doit être d’au moins 1,20 m.",
+  explication: "Pour des raisons de sécurité et d’accessibilité, elle doit être d’au moins 1,5 m de largeur.",
+  image: ""
+},
+{
+  texte: "Quelle est la largeur minimale réglementaire d'une allée piétonnne et d'engin en entrepôt à sens unique ?",
+  reponses: ["largeur d'un engin + 1m", "largeur d'un engin + 2m", "largeur d'un engin + 0,80m", "largeur d'un engin + 1,4m"],
+  bonne: 0,
+  explication: "Pour des raisons de sécurité et d’accessibilité, elle doit être d’au moins la largeur d'un engin + 1m",
+  image: ""
+},
+{
+  texte: "Quelle est la largeur minimale réglementaire d'une allée piétonnne et d'engin en entrepôt à double sens ?",
+  reponses: ["largeur de deux engin + 1m", "largeur de deux engin + 2m", "largeur de deux engin + 0,80m", "largeur de deux engin + 1,4m"],
+  bonne: 3,
+  explication: "Pour des raisons de sécurité et d’accessibilité, elle doit être d’au moins la largeur de deux engin + 1,4m.",
   image: ""
 },
 {
@@ -1469,6 +1490,7 @@ const questions = [
 },
 
 ];
+
 
 
 
