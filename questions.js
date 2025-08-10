@@ -1660,8 +1660,53 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   explication: "Butoirs absorbeurs + guides-roues = centrage/absorption des chocs sur contre le quai.",
   image: ""
 },
+{
+  texte: "Sur le squelette de la prise de poste, quelles sont les 3 catégories et les 9 thèmes associés ?",
+  reponses: [
+    "Conformité : CE, Notice, VGP — Adéquation : EPI, Environnements, Plaque de charge — Contrôle : Intérieur, Extérieur, Électrique/Hydraulique/Dynamique",
+    "Conformité : EPI, CE, Plaque de charge — Adéquation : Notice, Environnements, Extérieur — Contrôle : Intérieur, VGP, Dynamique",
+    "Conformité : CE, Extérieur, Notice — Adéquation : Environnements, VGP, Plaque de charge — Contrôle : EPI, Intérieur, Dynamique",
+    "Conformité : Notice, EPI, CE — Adéquation : Plaque de charge, Intérieur, VGP — Contrôle : Extérieur, Dynamique, Hydraulique"
+  ],
+  bonne: 0,
+  explication: "Le squelette de la prise de poste se divise en 3 catégories : Conformité (CE, Notice, VGP), Adéquation (EPI, Environnements, Plaque de charge) et Contrôle (Intérieur, Extérieur, Électrique/Hydraulique/Dynamique)."
+},
+{
+  texte: "Dans le squelette de la prise de poste, que contient la catégorie « Conformité » ?",
+  reponses: [
+    "CE, Notice, VGP",
+    "EPI, Environnements, Plaque de charge",
+    "Intérieur, Extérieur, Dynamique",
+    "Plaque de charge, CE, Extérieur"
+  ],
+  bonne: 0,
+  explication: "La catégorie Conformité regroupe CE, Notice et VGP."
+},
+{
+  texte: "Dans le squelette de la prise de poste, que contient la catégorie « Adéquation » ?",
+  reponses: [
+    "EPI, Environnements, Plaque de charge",
+    "CE, Notice, VGP",
+    "Intérieur, Extérieur, Dynamique",
+    "Plaque de charge, CE, Extérieur"
+  ],
+  bonne: 0,
+  explication: "La catégorie Adéquation comprend EPI, Environnements et Plaque de charge."
+},
+{
+  texte: "Dans le squelette de la prise de poste, que contient la catégorie « Contrôle » ?",
+  reponses: [
+    "Intérieur, Extérieur, Électrique/Hydraulique/Dynamique",
+    "CE, Notice, VGP",
+    "EPI, Environnements, Plaque de charge",
+    "Plaque de charge, CE, Extérieur"
+  ],
+  bonne: 0,
+  explication: "La catégorie Contrôle inclut Intérieur, Extérieur et Électrique/Hydraulique/Dynamique."
+},
 
 ];
+
 
 
 
