@@ -3,7 +3,7 @@
 // -------------------------------
 let currentQuestion = null;
 let recentIndexes = [];
-const noRepeatCount = 10;
+const noRepeatCount = 30;
 
 function getRandomQuestionIndex() {
   if (!window.questions || questions.length <= 1) return 0;
@@ -138,4 +138,5 @@ window.startQuiz = function () {
   }
   afficherQuestion();
 };
+
 
