@@ -1225,7 +1225,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   reponses: ["Produit inflammable", "Produit corrosif", "Produit explosif", "Produit radioactif"],
   bonne: 0,
   explication: "Ce pictogramme CLP signale une substance ou un mélange inflammable.",
-  image: "img/inf.png"
+  image: "img/INF.png"
 },
 {
   texte: "Quel est le numéro d’appel d’urgence unique en Europe ?",
@@ -1651,6 +1651,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 
 ];
+
 
 
 
