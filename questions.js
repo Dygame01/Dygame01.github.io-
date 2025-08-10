@@ -1,4 +1,4 @@
-const questions = [
+window.questions = (typeof questions !== 'undefined') ? questions : [
 
   // ==== BLOC 1 – Coordonner, réguler et contrôler l’activité liée aux flux de marchandises dans l’entrepôt ====
 
@@ -1651,6 +1651,7 @@ const questions = [
 },
 
 ];
+
 
 
 
