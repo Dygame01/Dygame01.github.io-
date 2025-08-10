@@ -492,14 +492,14 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 {
   texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison entre 3 et 10 tonnes ou de moins de 30m3 sur rendez-vous non respecté",
-  reponses: ["3h", "3h15h", "2h30", "2h15"],
+  reponses: ["3h", "3h15", "2h30", "2h15"],
   bonne: 3,
   explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 2h15 ",
   image: ""
 },
 {
   texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison supérieur à 10 tonnes ou de plus de 30m3 sur rendez-vous non respecté",
-  reponses: ["3h", "3h15h", "2h30", "2h15"],
+  reponses: ["3h", "3h15", "2h30", "2h15"],
   bonne: 1,
   explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 3h15 ",
   image: ""
@@ -1655,6 +1655,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 
 ];
+
 
 
 
