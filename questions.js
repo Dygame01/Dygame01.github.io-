@@ -1000,7 +1000,7 @@ const questions = [
   texte: "à partir de combien de Décibel est-t-on obligé de porté un casque anti-bruit ?",
   reponses: ["80db", "75db", "85db", "90db"],
   bonne: 2,
-  explication: "L’exposition prolongée au bruit peut causer des pertes auditives irréversibles.",
+  explication: "L’exposition prolongée au bruit peut causer des pertes auditives irréversibles, par conséquant à partir de 80db des casque doivent être mis à disposition et 85db il devienne obligatoire.",
   image: ""
 },
 {
@@ -1469,6 +1469,7 @@ const questions = [
 },
 
 ];
+
 
 
 
