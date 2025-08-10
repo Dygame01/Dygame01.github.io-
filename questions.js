@@ -346,11 +346,15 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   image: ""
 },
 {
-  texte: "Que signifie 'slotting' en entrepôt ?",
-  reponses: ["Mise en rack cantilever", "Optimisation de l’emplacement des SKU", "Rangement à la verticale", "Tri par couleur d’emballage"],
-  bonne: 1,
-  explication: "On attribue les emplacements pour réduire temps et parcours.",
-  image: ""
+  texte: "En logistique, que désigne le terme 'slotting' dans un entrepôt ?",
+  reponses: [
+    "Tri par couleur d’emballage",
+    "Mise en rack cantilever",
+    "Optimisation de l’emplacement des références (SKU)",
+    "Rangement à la verticale"
+  ],
+  bonne: 2,
+  explication: "Le slotting consiste à attribuer les emplacements de stockage de manière stratégique pour minimiser les déplacements, réduire les temps de préparation et améliorer l’efficacité globale."
 },
 {
   texte: "En expédition, quel contrôle documentaire est essentiel avant départ ?",
@@ -1651,6 +1655,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 
 ];
+
 
 
 
