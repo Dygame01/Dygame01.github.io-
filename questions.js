@@ -448,7 +448,7 @@ const questions = [
   texte: "selon le contrat type routier général, combien de temps de mise à disposition pour les livraison entre 3 et 10 tonnes ou de moins de 30m3 sur une heure de rendez-vous pris sur plage horaire",
   reponses: ["3h", "2h", "1h30", "1h"],
   bonne: 2,
-  explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 1h ",
+  explication: "Selon l'article 11 du contrat de transport type routier général,le temps de mise à disposition est de 1h30 ",
   image: ""
 },
 {
@@ -1469,6 +1469,7 @@ const questions = [
 },
 
 ];
+
 
 
 
