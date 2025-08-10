@@ -1,6 +1,6 @@
 let currentQuestion = null;
 let recentIndexes = [];
-const noRepeatCount = 5;
+const noRepeatCount = 10;
 
 function getRandomQuestionIndex() {
   if (questions.length <= 1) return 0;
@@ -125,3 +125,4 @@ document.getElementById("nextBtn").addEventListener("click", () => {
 
 // Première question
 afficherQuestion();
+
