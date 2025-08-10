@@ -1,9 +1,12 @@
+// -------------------------------
+// QCM – logique d’affichage
+// -------------------------------
 let currentQuestion = null;
 let recentIndexes = [];
 const noRepeatCount = 10;
 
 function getRandomQuestionIndex() {
-  if (questions.length <= 1) return 0;
+  if (!window.questions || questions.length <= 1) return 0;
 
   let i, tries = 0;
   do {
@@ -81,7 +84,7 @@ function afficherQuestion() {
   html += `<button class="btn-primary" onclick="verifier()">Valider</button></div>`;
   container.innerHTML = html;
 
-  // Accessibilité: focus sur la question
+  // Accessibilité: focus sur la première option
   container.querySelector('input[type="radio"]')?.focus({preventScroll:true});
 }
 
@@ -117,12 +120,22 @@ function verifier() {
   });
 }
 
-document.getElementById("nextBtn").addEventListener("click", () => {
-  afficherQuestion();
-  // remonte sur la carte question
-  document.getElementById("quiz-container").scrollIntoView({behavior:"smooth", block:"start"});
+document.addEventListener('click', (e) => {
+  if (e.target && e.target.id === 'nextBtn') {
+    afficherQuestion();
+    document.getElementById("quiz-container").scrollIntoView({behavior:"smooth", block:"start"});
+  }
 });
 
-// Première question
-afficherQuestion();
+// Exposé : appelé par index.html après chargement de questions.js + app.js
+window.startQuiz = function () {
+  if (!window.questions || !Array.isArray(window.questions) || !questions.length) {
+    console.error('questions non chargées');
+    document.getElementById('app')
+      .insertAdjacentHTML('beforeend',
+        '<p style="color:#b00">Aucune question disponible.</p>');
+    return;
+  }
+  afficherQuestion();
+};
 
