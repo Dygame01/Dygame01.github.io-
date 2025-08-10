@@ -797,6 +797,104 @@ const questions = [
   explication: "Pour une échelle intermédiaire, la déformation maximale tolérée est de 5 mm sur 1 mètre.",
   image: "img/dme.png"
 },
+{
+  texte: "Selon la norme, peut-on stocker une charge supérieure à celle indiquée sur la plaque de charge ?",
+  reponses: ["Oui si elle est bien répartie", "Oui avec accord du chef d'équipe", "Non, jamais", "Oui si c'est temporaire"],
+  bonne: 2,
+  explication: "Il est interdit de stocker des charges supérieures aux valeurs indiquées sur la plaque de charge. En cas de non-respect, l'employeur engage sa responsabilité pénale et civile.",
+  image: ""
+},
+{
+  texte: "Quelle est la hauteur minimale d'entrée de fourche pour une palette normalisée réutilisable ?",
+  reponses: ["75 mm", "85 mm", "95 mm", "105 mm"],
+  bonne: 2,
+  explication: "La hauteur minimale d'entrée de fourche est de 95 mm. Les palettes hors norme ou en mauvais état doivent être remplacées ou détruites.",
+  image: ""
+},
+{
+  texte: "Pourquoi les palettes de type perdu ne peuvent-elles pas toujours être utilisées dans les rayonnages ?",
+  reponses: [
+    "Elles sont trop lourdes",
+    "Elles ont une résistance limitée",
+    "Elles prennent trop de place",
+    "Elles coûtent trop cher"
+  ],
+  bonne: 1,
+  explication: "Les palettes perdues ont une résistance limitée et ne peuvent être utilisées que si les alvéoles disposent d'un plancher ou aménagement adapté. Sinon, leur utilisation est interdite.",
+  image: ""
+},
+{
+  texte: "Quel article du Code du travail impose à l'employeur de maintenir les équipements de travail en bon état de sécurité ?",
+  reponses: [
+    "Article L. 4321-1",
+    "Article R. 4321-1",
+    "Article L. 4121-1",
+    "Article R. 4512-8"
+  ],
+  bonne: 0,
+  explication: "L'article L. 4321-1 stipule que les équipements doivent être maintenus pour préserver la sécurité. Le non-respect peut entraîner amendes et sanctions pénales.",
+  image: ""
+},
+{
+  texte: "Quel article du Code du travail impose à l'employeur de fournir les équipements de travail appropriés ?",
+  reponses: [
+    "Article L. 4321-1",
+    "Article R. 4321-1",
+    "Article L. 4121-1",
+    "Article R. 4512-8"
+  ],
+  bonne: 1,
+  explication: "L'article R. 4321-1 impose de fournir les équipements adaptés au travail à réaliser. Le non-respect expose à des sanctions pénales et administratives.",
+  image: ""
+},
+{
+  texte: "Parmi ces causes, laquelle n'est pas citée comme source fréquente d'accidents sur les rayonnages métalliques ?",
+  reponses: [
+    "Décrochage des lisses",
+    "Déformations permanentes",
+    "Rayonnage trop haut",
+    "Sous-dimensionnement"
+  ],
+  bonne: 2,
+  explication: "Les principales causes incluent décrochage des lisses, déformations et sous-dimensionnement, mais pas spécifiquement la hauteur des rayonnages.",
+  image: ""
+},
+{
+  texte: "Que risque l'employeur en cas d'accident lié à l'absence de dispositifs de protection sur les rayonnages ?",
+  reponses: [
+    "Aucune sanction si le salarié est formé",
+    "Amende et/ou poursuites pénales",
+    "Simple avertissement",
+    "Obligation de réparer uniquement"
+  ],
+  bonne: 1,
+  explication: "L'absence de protections (sabots, grillages...) peut engager la responsabilité pénale de l'employeur, avec amendes et peines de prison selon la gravité.",
+  image: ""
+},
+{
+  texte: "Quels types de charges distingue-t-on pour le stockage en rayonnage ?",
+  reponses: [
+    "Individuelles, sur palettes, en caisses-palettes, en conteneurs",
+    "Lourdes, légères, volumineuses",
+    "Unitaires, groupées, mixtes",
+    "Emballées, non emballées"
+  ],
+  bonne: 0,
+  explication: "Les charges se répartissent en quatre catégories : individuelles, sur palettes, en caisses-palettes et en conteneurs.",
+  image: ""
+},
+{
+  texte: "Que stipule l'article L. 4121-1 du Code du travail concernant l'employeur ?",
+  reponses: [
+    "Il doit fournir les équipements de protection individuelle gratuitement",
+    "Il doit prendre toutes les mesures nécessaires pour assurer la sécurité et protéger la santé physique et mentale des travailleurs",
+    "Il doit contrôler l'assiduité et la ponctualité des salariés",
+    "Il doit limiter les heures supplémentaires à 5 par semaine"
+  ],
+  bonne: 1,
+  explication: "L'article L. 4121-1 impose à l'employeur de mettre en œuvre toutes les mesures nécessaires pour protéger la santé et assurer la sécurité des travailleurs, y compris des actions de prévention, d'information et de formation. Le non-respect peut entraîner sanctions pénales et civiles.",
+  image: ""
+},
 
   
 
@@ -1553,6 +1651,7 @@ const questions = [
 },
 
 ];
+
 
 
 
