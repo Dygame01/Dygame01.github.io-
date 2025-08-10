@@ -95,9 +95,14 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 {
   texte: "Quel système informatique centralise les informations de stock et de flux en entrepôt ?",
-  reponses: ["ERP", "CRM", "WMS", "SCADA"],
+  reponses: [
+    "ERP (Enterprise Resource Planning) – Progiciel de gestion intégrée",
+    "CRM (Customer Relationship Management) – Gestion de la relation client",
+    "WMS (Warehouse Management System) – Gestion d'entrepôt",
+    "SCADA (Supervisory Control And Data Acquisition) – Supervision et acquisition de données"
+  ],
   bonne: 2,
-  explication: "Le WMS (Warehouse Management System) gère les opérations en entrepôt.",
+  explication: "Le WMS (Warehouse Management System) gère et optimise les opérations en entrepôt, en centralisant les données de stock et de flux.",
   image: ""
 },
 {
@@ -297,10 +302,15 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   image: ""
 },
 {
-  texte: "Que signifie OTIF dans un KPI logistique ?",
-  reponses: ["On Time In Full", "Overall Truck Idle Factor", "Order Time Is Fine", "On Track in Freight"],
+  texte: "Que signifie OTIF dans un KPI (Key Performance Indicator) logistique ?",
+  reponses: [
+    "On Time In Full – livré à l'heure et complet",
+    "Overall Truck Idle Factor – facteur global d'inactivité des camions",
+    "Order Time Is Fine – le délai de commande est correct",
+    "On Track in Freight – dans les temps pour le fret"
+  ],
   bonne: 0,
-  explication: "Livré à l’heure et complet : mesure clé du service.",
+  explication: "OTIF (On Time In Full) mesure la proportion de commandes livrées à la fois dans les délais et sans erreur sur la quantité ou le contenu.",
   image: ""
 },
 {
@@ -1706,6 +1716,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 
 ];
+
 
 
 
