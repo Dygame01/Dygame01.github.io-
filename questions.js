@@ -713,15 +713,15 @@ const questions = [
   image: "img/pdc.png"
 },
 {
-  texte: "Selon cette image, que représente la valeur 4500 kg indiquée sur la plaque ?",
+  texte: "Selon cette image, à quoi correspond la valeur « 2250 kg MAX » indiquée sur la plaque ?",
   reponses: [
-    "La charge maximale totale par travée",
     "La charge maximale par niveau",
-    "Le poids total du rayonnage vide",
-    "Le poids de sécurité recommandé"
+    "La charge maximale par emplacement",
+    "Le poids du rayonnage vide",
+    "La charge maximale totale par travée"
   ],
   bonne: 0,
-  explication: "4500 kg correspond à la charge maximale totale par travée selon la plaque de charge.",
+  explication: "La plaque indique 750 kg MAX par emplacement. Avec 3 emplacements par niveau, cela fait 2250 kg MAX par niveau. La valeur totale par travée n'est pas indiquée ici.",
   image: "img/pdc.png"
 },
 {
@@ -1651,6 +1651,7 @@ const questions = [
 },
 
 ];
+
 
 
 
