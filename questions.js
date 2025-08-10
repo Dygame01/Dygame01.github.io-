@@ -1100,7 +1100,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   image: ""
 },
 {
-  texte: "Quel est le principe général du Code du travail concernant l'emploi des jeunes de moins de 18 ans ?",
+  texte: "Quel est le principe général du Code du travail concernant l'emploi des jeune âgés de 15 à 18 ans ?",
   reponses: [
     "Ils peuvent effectuer tous types de travaux",
     "Ils ne peuvent pas réaliser de travaux présentant des risques ou dépassant leurs forces",
@@ -1112,7 +1112,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   image: ""
 },
 {
-  texte: "Quel article du Code du travail définit certains travaux interdits aux jeunes ?",
+  texte: "Quel article du Code du travail définit certains travaux interdits aux jeune âgés de 15 à 18 ans ?",
   reponses: [
     "Article L.4121-1",
     "Article R.4321-1",
@@ -1124,7 +1124,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   image: ""
 },
 {
-  texte: "Quels types de travaux sont strictement interdits aux jeunes de 15 à 18 ans ?",
+  texte: "Quels types de travaux sont strictement interdits aux jeune âgés de 15 à 18 ans ?",
   reponses: [
     "Travaux avec agents biologiques dangereux, machines dangereuses, températures extrêmes",
     "Travaux administratifs et bureautiques",
@@ -1136,7 +1136,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   image: ""
 },
 {
-  texte: "Les jeunes peuvent-ils participer à l'abattage et à l'euthanasie des animaux ?",
+  texte: "Les jeune âgés de 15 à 18 ans peuvent-ils participer à l'abattage et à l'euthanasie des animaux ?",
   reponses: [
     "Oui, sans restriction",
     "Oui, uniquement sur animaux domestiques",
@@ -1148,7 +1148,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   image: ""
 },
 {
-  texte: "Les jeunes peuvent-ils travailler dans un espace confiné sans surveillance ?",
+  texte: "Les jeune âgés de 15 à 18 ans peuvent-ils travailler dans un espace confiné sans surveillance ?",
   reponses: [
     "Oui, s'ils sont équipés d'EPI",
     "Oui, s'ils ont plus de 16 ans",
@@ -1160,7 +1160,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   image: ""
 },
 {
-  texte: "La conduite de véhicules agricoles par un jeune travailleur est-elle autorisée ?",
+  texte: "La conduite de véhicules agricoles par un jeune âgés de 15 à 18 ans travailleur est-elle autorisée ?",
   reponses: [
     "Oui, à condition qu'ils soient formés",
     "Oui, mais uniquement sur terrain privé",
@@ -1172,7 +1172,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   image: ""
 },
 {
-  texte: "Dans quel cas un jeune peut-il effectuer un travail normalement interdit ?",
+  texte: "Dans quel cas un jeune âgés de 15 à 18 ans peut-il effectuer un travail normalement interdit ?",
   reponses: [
     "S'il est volontaire",
     "S'il bénéficie d'une dérogation officielle pour formation professionnelle",
@@ -1184,7 +1184,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   image: ""
 },
 {
-  texte: "Qui doit valider une dérogation permettant à un jeune d'effectuer un travail à risque ?",
+  texte: "Qui doit valider une dérogation permettant à un jeune âgés de 15 à 18 ans d'effectuer un travail à risque ?",
   reponses: [
     "Le chef d'équipe",
     "L'inspecteur du travail et le médecin du travail",
@@ -1811,6 +1811,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 
 ];
+
 
 
 
