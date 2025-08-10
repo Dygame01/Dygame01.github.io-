@@ -782,7 +782,21 @@ const questions = [
   bonne: 0,
   explication: "La 'position limite' correspond à la distance maximale à laquelle une palette peut être reculée avant de compromettre la sécurité.",
   image: "img/LDP.png"
-}
+},
+{
+  texte: "Selon l'image, quelle est la déformation maximale autorisée sur 1 mètre pour une échelle de rive (vue à gauche) ?",
+  reponses: ["2 mm", "3 mm", "5 mm", "10 mm"],
+  bonne: 1,
+  explication: "Pour une échelle de rive, la déformation maximale tolérée est de 3 mm sur 1 mètre.",
+  image: "img/dme.png"
+},
+{
+  texte: "Selon l'image, quelle est la déformation maximale autorisée sur 1 mètre pour une échelle intermédiaire (vue à droite) ?",
+  reponses: ["2 mm", "3 mm", "5 mm", "10 mm"],
+  bonne: 2,
+  explication: "Pour une échelle intermédiaire, la déformation maximale tolérée est de 5 mm sur 1 mètre.",
+  image: "img/dme.png"
+},
 
   
 
@@ -1539,6 +1553,7 @@ const questions = [
 },
 
 ];
+
 
 
 
