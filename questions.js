@@ -717,7 +717,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   image: "img/pdc.png"
 },
 {
-  texte: "Selon cette image, à quoi correspond la valeur « 2250 kg MAX » indiquée sur la plaque ?",
+  texte: "Selon cette image, à quoi correspond la valeur « 2250 kg max » déduite grace à la plaque ?",
   reponses: [
     "La charge maximale par niveau",
     "La charge maximale par emplacement",
@@ -1655,6 +1655,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 
 ];
+
 
 
 
