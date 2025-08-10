@@ -8,8 +8,6 @@
   <link rel="icon" type="image/png" href="img/favicon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16.png">
-
-
 </head>
 <body>
 
@@ -25,10 +23,19 @@
     </div>
   </main>
 
-  <script src="questions.js"></script>
-  <script src="app.js"></script>
+  <script>
+    // Version unique pour casser le cache
+    const version = Date.now();
+    ["questions.js", "app.js"].forEach(file => {
+      const script = document.createElement("script");
+      script.src = `${file}?v=${version}`;
+      document.body.appendChild(script);
+    });
+  </script>
+
 </body>
 </html>
+
 
 
 
