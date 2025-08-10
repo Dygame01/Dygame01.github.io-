@@ -742,29 +742,36 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 {
   texte: "Selon le tableau, quel est l'éclairement moyen à maintenir pour un parc de stationnement de voitures ?",
-  reponses: ["20 lux", "100 lux", "150 lux", "300 lux"],
+  reponses: ["20 lux", "100 lux", "150 lux", "200 lux"],
   bonne: 0,
   explication: "Le tableau précise que les parcs de stationnement de voitures doivent avoir un éclairement moyen à maintenir de 20 lux.",
   image: "img/lux.png"
 },
 {
   texte: "Selon le tableau, quel est l'éclairement moyen à maintenir pour les zones et couloirs de circulation piétonne ?",
-  reponses: ["20 lux", "100 lux", "150 lux", "300 lux"],
+  reponses: ["20 lux", "100 lux", "150 lux", "200 lux"],
   bonne: 1,
   explication: "Les zones et couloirs de circulation piétonne doivent avoir un éclairement moyen de 100 lux.",
   image: "img/lux.png"
 },
 {
   texte: "Selon le tableau, quel est l'éclairement moyen à maintenir pour les zones de circulation de véhicules, quais de chargement et escaliers ?",
-  reponses: ["20 lux", "100 lux", "150 lux", "300 lux"],
+  reponses: ["20 lux", "100 lux", "150 lux", "200 lux"],
   bonne: 2,
   explication: "Ces zones nécessitent un éclairement moyen à maintenir de 150 lux selon le tableau.",
   image: "img/lux.png"
 },
 {
   texte: "Selon le tableau, quel est l'éclairement moyen à maintenir pour les vestiaires, lavabos, cantines, toilettes et archives ?",
-  reponses: ["20 lux", "100 lux", "150 lux", "300 lux"],
+  reponses: ["20 lux", "100 lux", "150 lux", "200 lux"],
   bonne: 3,
+  explication: "Ces espaces nécessitent un éclairement moyen à maintenir de 200 lux.",
+  image: "img/lux.png"
+},
+{
+  texte: "Selon le tableau, quel est l'éclairement moyen à maintenir pour les zones de manutention, d'emballage et d'expédition d'entrepôts ?",
+  reponses: ["300 lux", "100 lux", "150 lux", "200 lux"],
+  bonne: 0,
   explication: "Ces espaces nécessitent un éclairement moyen à maintenir de 300 lux.",
   image: "img/lux.png"
 },
@@ -1655,6 +1662,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 
 ];
+
 
 
 
