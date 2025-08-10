@@ -311,11 +311,11 @@ windows.questions = [
   image: ""
 },
 {
-  texte: "Qu’indique le pictogramme 'deux flèches vers le haut' sur un colis ?",
+  texte: "Qu’indique ce pictogramme ?",
   reponses: ["Ouvrir ici", "Tenir au sec", "Sens de manutention vertical", "Produit corrosif"],
   bonne: 2,
   explication: "Indique le sens 'haut' à respecter pour la stabilité/produit.",
-  image: ""
+  image: "img/sdl.png"
 },
 {
   texte: "Quel est l’objectif du cross-docking ?",
@@ -1651,6 +1651,7 @@ windows.questions = [
 },
 
 ];
+
 
 
 
