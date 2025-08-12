@@ -606,15 +606,15 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 {
   texte: "Selon cette image, comment se nomme la pièce n°5 ?",
-  reponses: ["Protection au-dessus des allées", "Traverse", "Échelle de rive", "Support pour conteneur"],
-  bonne: 0,
-  explication: "Sur l'image, la pièce n°5 est la protection au-dessus des allées ponts et des allées piétonnes.",
+  reponses: ["Protection au-dessus des allées", "l'entretoise de portique", "Échelle de rive", "Support pour conteneur"],
+  bonne: 1,
+  explication: "Sur l'image, la pièce n°5 est l'entretoise de portique.",
   image: "img/prm.png"
 },
 {
   texte: "Selon cette image, comment se nomme la pièce n°6 ?",
   reponses: ["Protection de montant", "Protection latérale", "Protection au-dessus des allées", "Traverse"],
-  bonne: 0,
+  bonne: 2,
   explication: "Sur l'image, la pièce n°6 est la protection au-dessus des allées ponts et piétonnes.",
   image: "img/prm.png"
 },
@@ -1907,6 +1907,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 
 ];
+
 
 
 
