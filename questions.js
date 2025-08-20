@@ -2180,7 +2180,161 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   explication: "La catégorie Contrôle inclut Intérieur, Extérieur et Électrique/Hydraulique/Dynamique."
 },
 
+{
+  texte: "Si ma charge pèse 1.6T et est à d=700 mm, jusqu’à quelle hauteur puis-je la lever ?",
+  reponses: [
+    "3,30 m",
+    "5,46 m",
+    "1,40 m",
+    "2,00 m"
+  ],
+  bonne: 0,
+  explication: "D'après la plaque, une charge de 1600 kg à d=700 mm peut être levée à une hauteur de 3,30 m.",
+  image: "img/pdc1.PNG"
+},
+{
+  texte: "Si ma charge pèse 2T et à d=500 mm, jusqu’à quelle hauteur puis-je la lever ?",
+  reponses: [
+    "5,46 m",
+    "3,30 m",
+    "1,60 m",
+    "1,40 m"
+  ],
+  bonne: 1,
+  explication: "À 2000 kg et d=500 mm, la charge maximale est atteinte à 3,30 m de hauteur de levée.",
+  image: "img/pdc1.PNG"
+},
+{
+  texte: "Si ma charge pèse 1400 kg et d=700 mm, jusqu’à quelle hauteur puis-je la lever ?",
+  reponses: [
+    "3,30 m",
+    "5,46 m",
+    "1,60 m",
+    "1,40 m"
+  ],
+  bonne: 1,
+  explication: "Selon la plaque, une charge de 1400 kg à d=700 mm du tablier peut être levée à 5,46 m.",
+  image: "img/pdc1.PNG"
+},
+{
+  texte: "Quelle est la capacité nominale du chariot selon la plaque ?",
+  reponses: [
+    "1800 kg ",
+    "2000 kg ",
+    "1600 kg ",
+    "2000 kg "
+  ],
+  bonne: 1,
+  explication: "La capacité nominale est de 2000 kg, on ne peut donc soulevé plus de 2t avec ce chariot ",
+  image: "img/pdc1.PNG"
+},
+{
+  texte: "Quelle est la masse totale à vide du chariot indiquée sur la plaque ?",
+  reponses: [
+    "2000 kg",
+    "4100 kg",
+    "960 kg",
+    "5460 kg"
+  ],
+  bonne: 1,
+  explication: "La masse totale à vide du chariot est précisée en bas à droite de la plaque : 4100 kg.",
+  image: "img/pdc1.PNG"
+},
+{
+  texte: "Quelle est la masse minimale de la batterie pour ce chariot ?",
+  reponses: [
+    "4100 kg",
+    "3300 kg",
+    "1600 kg",
+    "960 kg"
+  ],
+  bonne: 3,
+  explication: "La masse minimale de la batterie est de 960 kg.",
+  image: "img/pdc1.PNG"
+},
+{
+  texte: "Si ma charge pèse 900 kg et d = 700 mm, jusqu’à quelle hauteur au maximum puis-je la lever ?",
+  reponses: ["3800 mm", "3400 mm", "3100 mm", "1050 mm"],
+  bonne: 1,
+  explication: "900 kg à d = 700 mm correspond à la dernière ligne et colonne du tableau, ce qui autorise une hauteur de 3.400 mm.",
+  image: "img/pdc3.webp"
+},
+{
+  texte: "Si ma charge pèse 1.250 kg et d = 600 mm, jusqu’à quelle hauteur puis-je la lever ?",
+  reponses: ["3.800 mm", "3.400 mm", "3.100 mm", "1.250 mm"],
+  bonne: 1,
+  explication: "1.250 kg à d = 600 mm correspond à la deuxième ligne, deuxième colonne : hauteur maximale = 3.400 mm.",
+  image: "img/pdc3.webp"
+},
+{
+  texte: "Si ma charge pèse 1.050 kg et d = 500 mm, jusqu’à quelle hauteur puis-je la lever ?",
+  reponses: ["3.100 mm", "3.400 mm", "3.800 mm", "1.050 mm"],
+  bonne: 2,
+  explication: "1.050 kg à d = 500 mm = ligne 1, colonne 1 → 3.800 mm maximum.",
+  image: "img/pdc3.webp"
+},
+{
+  texte: "Quelle est la capacité maximale du chariot ?",
+  reponses: ["1.250 kg", "1.400 kg", "1.050 kg", "900 kg"],
+  bonne: 1,
+  explication: "La ligne 3 (capacité maximale) et colonne 1 (d = 500 mm) donne 1.400 kg.",
+  image: "img/pdc3.webp"
+},
+{
+  texte: "Qu’indique le chiffre 1.400 situé en bas à gauche du tableau ?",
+  reponses: [
+    "Le poids du chariot",
+    "Le numéro de série du modèle",
+    "La capacité maximale pour d = 500 mm",
+    "La hauteur maximale du mât"
+  ],
+  bonne: 2,
+  explication: "Dans la ligne du bas (1.400 kg), à d = 500 mm, c’est la capacité maximale en kg.",
+  image: "img/pdc3.webp"
+},
+{
+  texte: "Si ma charge pèse 2000 kg et d = 500 mm, jusqu’à quelle hauteur puis-je la lever ?",
+  reponses: ["4175 mm", "5825 mm", "6275 mm", "6725 mm"],
+  bonne: 0,
+  explication: "2000 kg à d = 500 mm correspond à la première ligne en haut de la plaque, qui autorise une levée maximale de 4175 mm.",
+  image: "img/pdc2.webp"
+},
+{
+  texte: "Si ma charge pèse 1500 kg et d = 600 mm, jusqu’à quelle hauteur puis-je la lever ?",
+  reponses: ["4175 mm", "5825 mm", "6275 mm", "6725 mm"],
+  bonne: 2,
+  explication: "1500 kg à d = 600 mm correspond à la deuxième ligne, qui permet une levée jusqu'à 6275 mm.",
+  image: "img/pdc2.webp"
+},
+{
+  texte: "Si ma charge pèse 1000 kg et d = 700 mm, jusqu’à quelle hauteur puis-je la lever ?",
+  reponses: ["4175 mm", "5825 mm", "6275 mm", "6725 mm"],
+  bonne: 3,
+  explication: "1000 kg à d = 700 mm est indiqué sur la ligne correspondant à une hauteur de levée maximale de 6725 mm.",
+  image: "img/pdc2.webp"
+},
+{
+  texte: "Si ma charge pèse 700 kg et d = 900 mm, jusqu’à quelle hauteur puis-je la lever ?",
+  reponses: ["4175 mm", "5825 mm", "6275 mm", "6725 mm"],
+  bonne: 3,
+  explication: "La capacité de levée  est de 6725 mm.",
+  image: "img/pdc2.webp"
+},
+{
+  texte: "Quelle tendance observe-t-on entre le poids de la charge, le déport (d) et la hauteur maximale ?",
+  reponses: [
+    "Plus le poids et le déport sont élevés, plus la hauteur augmente",
+    "Plus le poids et le déport sont élevés, plus la hauteur diminue",
+    "Le poids n’a pas d’impact, seule la hauteur compte",
+    "Plus le déport est réduit, plus le poids autorisé baisse"
+  ],
+  bonne: 1,
+  explication: "Plus le poids est élevé et le déport important, plus la hauteur de levée maximale est réduite pour des raisons de stabilité.",
+  image: "img/pdc2.webp"
+},
+
 ];
+
 
 
 
