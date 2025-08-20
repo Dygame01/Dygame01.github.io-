@@ -1291,7 +1291,281 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
   explication: "Le contact avec le verre ou le métal en fusion est interdit sauf dans le cadre d’une dérogation temporaire validée.",
   image: ""
 },
-
+{
+  texte: "Qu’est-ce que le stock Mini ?",
+  reponses: [
+    "Le stock nécessaire pour couvrir une commande urgente",
+    "Le niveau de stock en dessous duquel une commande doit être déclenchée",
+    "Le stock maximal autorisé en entrepôt",
+    "La quantité livrée à chaque réapprovisionnement"],
+  bonne: 1,
+  explication: "Le stock minimum correspond au niveau de stock en dessous duquel il ne faut pas descendre. Il permet d’éviter une rupture en attendant le réapprovisionnement.",
+  image: ""
+},
+{
+  texte: "Qu’est-ce que le stock de sécurité ",
+  reponses: [
+    "Le stock maximal atteint en période de pic",
+    "Une réserve destinée à faire face aux imprévus (retards, panne fournisseur…)",
+    "Le stock utilisé uniquement en cas de rupture",
+    "Le stock nécessaire pour démarrer la production"
+  ],
+  bonne: 1,
+  explication: "Le stock de sécurité est une réserve utilisée en cas de problème : retard de livraison, augmentation soudaine de la demande, etc.",
+  image: ""
+},
+{
+  texte: "Qu’est-ce que le stock d'alerte ?",
+  reponses: [
+    "Le stock disponible en période de soldes",
+    "Le niveau de stock à ne jamais dépasser",
+    "Le niveau de stock qui déclenche une commande",
+    "Une quantité de stock détenue pour respecter la réglementation"
+  ],
+  bonne: 2,
+  explication: "Le stock d’alerte est le seuil à partir duquel une commande doit être lancée pour éviter une rupture.",
+  image: ""
+},
+{
+  texte: "Qu’est-ce que le stock Max ?",
+  reponses: [
+    "Le stock de sécurité à ne jamais dépasser",
+    "La quantité maximale que l’on peut ou souhaite stocker pour un produit",
+    "Le stock réel observé après inventaire",
+    "La quantité moyenne livrée par le fournisseur"
+  ],
+  bonne: 1,
+  explication: "Le stock maximum est la quantité maximale que l'on souhaite conserver pour un article, afin d’éviter le surstockage, les pertes ou les encombrements. Il est défini selon la capacité de stockage et les besoins réels.",
+  image: ""
+},
+{
+  texte: "Qu’est-ce que le stock initial ?",
+  reponses: [
+    "La quantité de marchandises disponibles au début d’une période (journée, mois, exercice…)",
+    "La quantité théorique attendue à la fin d’un inventaire",
+    "Le stock de sécurité calculé pour éviter les ruptures",
+    "La quantité commandée au fournisseur au début d’un projet"
+  ],
+  bonne: 0,
+  explication: "Le stock initial correspond au stock réellement disponible au tout début d'une période de gestion. Il est utilisé comme point de départ pour calculer les flux (entrées, sorties, stock final…).",
+  image: ""
+},
+{
+  texte: "Comment calcule-t-on le stock Mini ?",
+  reponses: [
+    "Stock d’alerte – stock d’urgence",
+    "Stock d’urgence + consommation minimale pendant le délai d’approvisionnement",
+    "Stock maximum ÷ 2",
+    "Quantité livré en une fois"
+  ],
+  bonne: 3,
+  explication: "Le stock mini est égal à la quantité que l'on reçoit en moyenne par livraison.",
+  image: ""
+},
+{
+  texte: "Comment calcule-t-on le stock de sécurité ?",
+  reponses: [
+    "Stock mini – stock maxi",
+    "Consommation pendant le retard maximum possible de livraison",
+    "Stock d’alerte – stock moyen",
+    "Durée de réapprovisionnement ÷ quantité livrée"
+  ],
+  bonne: 1,
+  explication: "Le stock de sécurité correspond à la consommation pendant le délai de sécurité, c’est-à-dire pendant le retard maximum possible de livraison.",
+  image: ""
+},
+{
+  texte: "Comment calcule-t-on le stock d'alerte ?",
+  reponses: [
+    "Stock de sécurité + stock mini",
+    "Consommation moyenne x délai d’approvisionnement + stock d’urgence",
+    "Stock mini x 2",
+    "Stock moyen – stock d’urgence"
+  ],
+  bonne: 0,
+  explication: "Le stock d’alerte = stock de sécurité + stock d’urgence.",
+  image: ""
+},
+{
+  texte: "Quelle est la définition de stock ?",
+  reponses: [
+    "Une liste de fournisseurs disponibles pour les commandes",
+    "L’ensemble des marchandises, matières premières ou produits finis détenus par une entreprise",
+    "Un outil informatique de gestion des expéditions",
+    "Le montant total des ventes d’un produit sur une période"
+  ],
+  bonne: 1,
+  explication: "Le stock représente l’ensemble des biens physiques (matières premières, produits semi-finis ou finis) que possède une entreprise en attente d’utilisation, de production ou de vente.",
+  image: ""
+},
+{
+  texte: "Quelles sont les 4 méthodes d'inventaire ?",
+  reponses: [
+    "Physique, numérique, permanent, visuel",
+    "Annuel, tournant, permanent, Aveugle",
+    "Mensuel, aléatoire, annuel, automatique",
+    "Saisonnier, fixe, tournant, journalier"
+  ],
+  bonne: 1,
+  explication: "Les 4 principales méthodes d'inventaire sont : **l'inventaire annuel** (fait une fois par an), **l'inventaire tournant** (fait régulièrement par zones), **l'inventaire permanent** (mis à jour en temps réel) et **l'inventaire à l'aveugle** (sonder au hasard une ou plusieurs ref).",
+  image: ""
+},
+{
+  texte: "Comment calcule-t-on le taux de rotation ?",
+  reponses: [
+    "Stock final ÷ stock initial",
+    "Taux de sortie + taux d'entrée ÷ 2",
+    "Stock moyen ÷ nombre de livraisons",
+    "Nombre de jours ÷ consommation moyenne"
+  ],
+  bonne: 1,
+  explication: "Le taux de rotation permet d’évaluer la fréquence de renouvellement du stock. Une méthode simple consiste à faire la moyenne entre le taux d’entrée et le taux de sortie.",
+  image: ""
+},
+{
+  texte: "Comment calcule-t-on le taux d'entrée ?",
+  reponses: [
+    "Nombre de jours d’ouverture ÷ commandes",
+    "[(somme des entrées) ÷ (stock initial)] × 100",
+    "Stock final + livraisons ÷ consommation",
+    "Consommation ÷ stock moyen"
+  ],
+  bonne: 1,
+  explication: "Le taux d’entrée mesure la proportion d’articles entrants par rapport au stock initial. On l’obtient en divisant la somme des entrées par le stock initial, puis en multipliant par 100.",
+  image: ""
+},
+{
+  texte: "Comment calcule-t-on le taux de sortie ?",
+  reponses: [
+    "Nombre de sorties ÷ jours de travail",
+    "[(somme des sorties) ÷ (stock initial)] × 100",
+    "Stock final ÷ stock de sécurité",
+    "Entrées ÷ sorties × 100"
+  ],
+  bonne: 1,
+  explication: "Le taux de sortie exprime combien de stock a été écoulé en pourcentage du stock initial. Formule : (sorties ÷ stock initial) × 100.",
+  image: ""
+},
+{
+  texte: "Comment calcule-t-on l'indice de Gini ?",
+  reponses: [
+    "Somme des écarts cumulés ÷ nombre de classes",
+    "((Somme des critères cumulés en % × % de part par classe) – 5000) ÷ 5000",
+    "Taux de sortie – taux de rotation",
+    "Stock final ÷ nombre d’articles"
+  ],
+  bonne: 1,
+  explication: "L’indice de Gini permet de s'assurer que la loi de Pareto à été correctement utilisé et si il est pertinent grâce à ce calcul",
+  image: ""
+},
+{
+  texte: "Qu’est-ce que l'indice de Gini ?",
+  reponses: [
+    "Un outil de conversion monétaire utilisé en logistique internationale",
+    "Un indicateur permettant d’évaluer les inégalités de distribution (revenus, quantités, etc.) dans un ensemble",
+    "Une méthode pour mesurer la rotation des stocks sur une année",
+    "Il permet de s'assurer que la loi de Pareto (80/20) est pertinente"
+  ],
+  bonne: 3,
+  explication: "L’indice de Gini permet de s'assurer que la loi de Pareto à été correctement utilisé et si il est pertinent",
+  image: ""
+},
+{
+  texte: "Quelle est la particularité du réapprovisionnement calendaire (Quantité fixe, Date fixe) ?",
+  reponses: [
+    "Il ne tient pas compte des niveaux de stock",
+    "Il déclenche une commande à chaque alerte",
+    "Il permet un ajustement à la demande en temps réel",
+    "Il fonctionne uniquement en flux tendus"
+  ],
+  bonne: 0,
+  explication: "Le réapprovisionnement calendaire se base sur une fréquence fixe (ex. : chaque semaine), sans tenir compte du niveau de stock.",
+  image: ""
+},
+{
+  texte: "À quel moment déclenche-t-on une commande avec la méthode du point de commande (Quantité fixe, Date Variable)?",
+  reponses: [
+    "Lorsque le stock maximum est atteint",
+    "Lorsqu'une quantité définie est vendue",
+    "Quand le stock atteint un seuil d’alerte prédéfini",
+    "Tous les mois, à date fixe"
+  ],
+  bonne: 2,
+  explication: "Dans la méthode du point de commande, la commande est déclenchée dès que le stock passe en dessous d’un seuil critique.",
+  image: ""
+},
+{
+  texte: "Que signifie la méthode de réapprovisionnement par recomplètement (Quantité Variable, Date Fixe)?",
+  reponses: [
+    "Commander toujours la même quantité",
+    "Commander pour ramener le stock au maximum prédéfini",
+    "Commander en flux tendus",
+    "Commander uniquement en cas de rupture"
+  ],
+  bonne: 1,
+  explication: "Le recomplètement vise à ramener le niveau de stock au maximum défini à chaque commande.",
+  image: ""
+},
+{
+  texte: "Quelle politique de réapprovisionnement est la moins prévisible (Quantité Variable, Date variable)?",
+  reponses: [
+    "Calendaire",
+    "Point de commande",
+    "Recomplètement",
+    "Opportuniste"
+  ],
+  bonne: 3,
+  explication: "La méthode opportuniste dépend d’opportunités ponctuelles (prix bas, disponibilité fournisseur, etc.). Elle est donc la moins planifiée.",
+  image: ""
+},
+{
+  texte: "Quel avantage offre la méthode calendaire ?",
+  reponses: [
+    "Elle minimise le coût d’achat",
+    "Elle évite totalement les ruptures",
+    "Elle est simple à mettre en œuvre et à automatiser",
+    "Elle s’adapte en temps réel à la consommation"
+  ],
+  bonne: 2,
+  explication: "La méthode calendaire est facile à planifier et peut être automatisée, même si elle manque de souplesse.",
+  image: ""
+},
+{
+  texte: "Dans quel cas utilise-t-on la méthode opportuniste ?",
+  reponses: [
+    "Quand les délais de livraison sont garantis",
+    "Quand on veut profiter d’un prix, d’un déstockage ou d’une offre spéciale",
+    "Quand on suit le stock en temps réel",
+    "Quand la demande est totalement stable"
+  ],
+  bonne: 1,
+  explication: "La méthode opportuniste repose sur des occasions d’achat ponctuelles (réduction, surplus chez le fournisseur, etc.).",
+  image: ""
+},
+{
+  texte: "Quel est le principal inconvénient du réapprovisionnement par point de commande ?",
+  reponses: [
+    "Il nécessite un stock maximum très élevé",
+    "Il oblige à commander à des dates fixes",
+    "Il demande un suivi régulier et précis des stocks",
+    "Il ne prend pas en compte les seuils d’alerte"
+  ],
+  bonne: 2,
+  explication: "Le point de commande implique de suivre les stocks en temps réel pour déclencher une commande dès que le seuil est atteint.",
+  image: ""
+},
+{
+  texte: "La méthode de recomplètement est particulièrement adaptée :",
+  reponses: [
+    "Quand les consommations sont très variables et imprévisibles",
+    "Pour des produits de grande valeur achetés à l’unité",
+    "Lorsque le stock est suivi manuellement",
+    "Aux situations où on souhaite maintenir un stock constant jusqu'à un niveau maximum"
+  ],
+  bonne: 3,
+  explication: "Le recomplètement permet de maintenir un stock stable, en le ramenant au niveau maximum défini, à chaque commande.",
+  image: ""
+},
 
 
 // ==== Bloc transversal │ Hygiène, sécurité, ergonomie, bureautique, égalité, développement durable, anglais pro ====
@@ -1907,6 +2181,7 @@ window.questions = (typeof questions !== 'undefined') ? questions : [
 },
 
 ];
+
 
 
 
